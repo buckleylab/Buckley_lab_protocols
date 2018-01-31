@@ -11,7 +11,7 @@ For those of you who wish to add protocols to this repo, please follow the follo
 
  * Title
  * Original author with date
- * Contriuting aurthors with modification dates
+ * Contributing authors with modification dates
  * Description
  * Protocol/code/etc.
  * Any citations needed
