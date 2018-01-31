@@ -18,15 +18,15 @@ For those of you who wish to add protocols to this repo, please follow the follo
  
 We will make an effort to keep this up to date but please note that some protocols may be older or unused and might need modification for new equipment, software, or methods.  If you see any mistakes or want to add/modify any protocols, please push your changes and contact a lab admin. This repo is a work in progress so we welcome any new protocols as they are designed.
 
-## Soil chemistry
+## [Soil chemistry](./Soil_chemistry)
 Protocols for measuring characteristics of soil.
 
-## PCR
+## [PCR](./PCR)
 Protocols related to PCR.
 
-## Illumina Library preparation
+## [Illumina Library preparation](./Illumina_library_preparation)
 Protocols for preparing DNA for sequencing with Illumina. Most are post-PCR.
 
-## Using the server
+## [Using the server](./Using_the_server)
 This directory contains information reguarding use of the Buckley Lab server.
  
