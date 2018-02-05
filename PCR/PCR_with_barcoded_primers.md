@@ -14,7 +14,7 @@ This protocol is for running real time PCR using barcoded primers for Illumina M
 
 # Method
 
-Important notes to read before starting: 
+__Important notes to read before starting:__ 
 * If using the robot for PCR setup, all template DNA must come from the same 96-well plate.  
 If you have samples from >2 plates, you must transfer them to the same plate. If your current template
 plate is completely full (no room for additional positive or negative control) you must transfer
@@ -29,14 +29,14 @@ that if you have 94 samples on your template plate, you need to run 4 separate P
 	* Positive control: Mock community, bacterial colony DNA extract, anything you know contains your primer target.
 	* Negative control: empty well, molecular grade water, extraction buffer.
 
-1. Calculate sample volume necessary for addition of __5 ng__ of template DNA to PCR
+2. Calculate sample volume necessary for addition of __5 ng__ of template DNA to PCR
 reactions. This is just a guideline for how much DNA to use per rxn. You may need to
 use more or less depending on PCR inhibitors and rxn efficiency.
 
-1. If dilutions beyond the capacity within a single 25 ul PCR reaction are necessary
+3. If dilutions beyond the capacity within a single 25 ul PCR reaction are necessary
 you will need to make a separate dilution plate containing all 
 
-1. PCR composition for 1 rxn:
+4. PCR composition for 1 rxn:
 
 	* 12.5 uL Mastermix (NEB Q5 High Fidelity, Hot Start PCR Mastermix - M0494)
 		* 50% of total volume
@@ -58,15 +58,15 @@ you will need to make a separate dilution plate containing all
 
 * NOTE: Mastermix and Picogreen can be mixed prior to PCR (31.25 ul picogreen in 1.25 ml Mastermix) and then 13.1 µl mix added per PCR reaction.
 
-1. Use robot method "qPCR\_wWorklist\_altdispense" for setting up PCRs, 
+5. Use robot method "qPCR\_wWorklist\_altdispense" for setting up PCRs, 
 running triplicate reactions for each sample to be sequenced. 
 
-1. Run thermocycler protocol for gene of interest
+6. Run thermocycler protocol for gene of interest
 	* 16S V4 region (515f-806r):
 	* ITS:
 	* rpoB:
 
 * NOTE: we usually run a melt curve after the 30 amplification cycles to distiguish amplification from primer-dimer formations.
 
-1. Combine amplified replicate PCRs for each samples, transferring samples to a new 96-well plate. 
+7. Combine amplified replicate PCRs for each samples, transferring samples to a new 96-well plate. 
 	* This can be done with the robot method: "plate_pooling"
