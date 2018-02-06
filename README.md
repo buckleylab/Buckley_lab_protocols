@@ -21,12 +21,19 @@ We will make an effort to keep this up to date but please note that some protoco
 ## [Soil chemistry](./Soil_chemistry)
 Protocols for measuring characteristics of soil.
 
+## [Gel electrophoresis](./gel_electrophoresis)
+Protocols for running DNA on a gel. This includes gel purification as well as PippinPrep.
+
 ## [PCR](./PCR)
-Protocols related to PCR.
+Protocols, scripts, and methods related to DNA amplification with PCR.
 
 ## [Preparing DNA for sequencing](./Preparing_DNA_for_Sequencing)
-Protocols for preparing DNA for sequencing with Illumina. Most are post-PCR.
+Protocols for preparing DNA for sequencing. Most are protocols work with post-PCR DNA.
 
 ## [Using the server](./Using_the_server)
 This directory contains information reguarding use of the Buckley Lab server.
+
+## [Lab equipment](./lab_equipment)
+Manuals and protocols for using some of the Buckley Lab equipment including:
+ * SpeedVac: Used for DNA concentration
  
