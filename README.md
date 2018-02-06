@@ -24,7 +24,7 @@ Protocols for measuring characteristics of soil.
 ## [PCR](./PCR)
 Protocols related to PCR.
 
-## [Illumina Library preparation](./Illumina_library_preparation)
+## [Preparing DNA for sequencing](./Preparing_DNA_for_Sequencing)
 Protocols for preparing DNA for sequencing with Illumina. Most are post-PCR.
 
 ## [Using the server](./Using_the_server)
