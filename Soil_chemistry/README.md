@@ -1,18 +1,25 @@
 # Soil Chemistry
 
-## Introduction
+## Description
 This directory contains protocols for measuring common soil chemistry parameters.
 
-## [Carbon:Nitrogen ratio](./C_N_ratio.md)
+## Protocols
 
-## [Water content](./gravimetric_water_content.md)
+### [Carbon:Nitrogen ratio](./C_N_ratio.md)
+Measuring the Carbon:Nitrogen ratio of soil.
 
-## [Soil texture](./soil_texture.md)
+### [Water content](./gravimetric_water_content.md)
+Measuring the water content of soil.
 
-## [Oranic carbon content](./organic_content.md)    
+### [Soil texture](./soil_texture.md)
+Measuring the soil texture.
 
-## [pH](./pH.md)
+### [Oranic carbon content](./organic_content.md)    
+Measuring the organic carbon content of soil.
 
-## [Water holding capacity](./water_holding_capacity.md)
+### [pH](./pH.md)
+Measuring soil pH.
 
-An example sample datasheet can be found here [water_holding_capacity_datasheet.docx](./water_holding_capacity_datasheet.docx)
+### [Water holding capacity](./water_holding_capacity.md)
+Measuring the water holding capacity of soil.
+An example sample datasheet can be found here [water_holding_capacity_datasheet.docx](./water_holding_capacity_datasheet.docx).
