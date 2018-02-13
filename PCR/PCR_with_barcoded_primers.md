@@ -16,7 +16,7 @@ This protocol is for running real time PCR using barcoded primers for Illumina M
 
 __Important notes to read before starting:__ 
 * If using the robot for PCR setup, all template DNA must come from the same 96-well plate.  
-If you have samples from >2 plates, you must transfer them to the same plate. If your current template
+If you have samples from more than one plate, you must transfer them to the same plate. If your current template
 plate is completely full (no room for additional positive or negative control) you must transfer
 samples to a new plate with enough room for your positive and negative controls. This is common
 for DNA from 96-well extraction kits.
