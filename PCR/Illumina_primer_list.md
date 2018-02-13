@@ -1,14 +1,13 @@
 List of Barcoded Primers used for Illumina Sequencing
 =================================
 
-## Last updated
+## Author
 
 Sam Barnett (January 2017)
 
+## Additionally modified by:
 
-## Printing this list
-
-See **Printing protocols** in the [README](../README.md#printing-protocols-conversion-of-protocols-to-pdf)
+Roli Wilhelm (2017)
 
 # Primer construction
 
