@@ -27,6 +27,13 @@ Protocols related to PCR.
 ## [Preparing DNA for sequencing](./Preparing_DNA_for_Sequencing)
 Protocols for preparing DNA for sequencing with Illumina. Most are post-PCR.
 
+## [GCMS](./GCMS)
+Protocols for using the Buckley lab GCMS. Also includes scripts for GCMS data processing.
+
+## [Gel electrophoresis](./gel_electrophoresis)
+Protocols for running DNA on a gel including gel excision, size selection and Blue Pippin protocols.
+
 ## [Using the server](./Using_the_server)
 This directory contains information reguarding use of the Buckley Lab server.
  
+
