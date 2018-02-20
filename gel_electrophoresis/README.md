@@ -5,6 +5,8 @@ This directory contains protocols for running DNA on a gel
 
 ## Protocols:
 
-### [Example Protocol](./example_link_to_protocol)
-Put description of protocol here
+### [Gel Extraction](./gel_extraction.md)
+DNA purification (post PCR) and size selection.
 
+### [Pippin Prep](./Pippin_prep.md)
+Size selection using the Blue PippinPrep device.
