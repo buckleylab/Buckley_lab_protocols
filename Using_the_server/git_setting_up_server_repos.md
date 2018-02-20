@@ -1,17 +1,17 @@
 Setting up master git repositories on the server
 ========================================
 
-## Authorship:
+### Authorship:
 Sam Barnett (February 2018)
 
-## Updated by:
+### Updated by:
 
-# Description
+### Description:
 This file explains how to set up local master git repositories on the
 Buckley lab server. This should work on your local machine too, but you'll 
 have to change the file paths.
 
-### Creating a new master remote from scratch
+## Creating a new master remote from scratch
 This will create a new master remote directory from scratch. This should be done
 at the begining of a project, before the project directories have been made.
 You must be part of the group "git" in order to do this on the server.
@@ -35,7 +35,7 @@ You must be part of the group "git" in order to do this on the server.
 
 You are now all set!
 
-### Creating a new master remote repo on the server from started project directory.
+## Creating a new master remote repo on the server from started project directory.
 This will make a new master remote repo from a directory that you have 
 already made in your home directory. This is good if you want to begin keeping
 track of changes to a directory of an already started project.
