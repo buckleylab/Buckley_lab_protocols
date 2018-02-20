@@ -21,14 +21,14 @@ You must be part of the group "git" in order to do this on the server.
 1. Make a bare directory in our server git repo directory (`/home/git/`)
    - i.`cd /home/git`
    - ii. `mkdir PROJECT_NAME.git`
-	iii. `cd PROJECT_NAME.git`
-	iv. `git --bare init --shared`
+   - iii. `cd PROJECT_NAME.git`
+   - iv. `git --bare init --shared`
 2. Clone this repo into your local directory
-	i. `cd /home/USERNAME/git_repos`
-	ii. `git clone /home/git/PROJECT_NAME.git`
-		*You may get a message saying you just cloned an empty repo*
+   - i. `cd /home/USERNAME/git_repos`
+   - ii. `git clone /home/git/PROJECT_NAME.git`
+     - You may get a message saying you just cloned an empty repo*
 3. You now have a master and local repo for your project. Before moving on, you should make your first commit and push that to the master.
-	i. `cd /home/USERNAME/git_repos/PROJECT_NAME`
+   i. `cd /home/USERNAME/git_repos/PROJECT_NAME`
 	ii. `touch README`
 	iii. `git add README`	*Adds the file `README` to tracking*
 	iv. `git commit -a -m "Inital commit"`
