@@ -19,7 +19,7 @@ at the begining of a project, before the project directories have been made.
 You must be part of the group "git" in order to do this on the server.
 
 1. Make a bare directory in our server git repo directory (`/home/git/`)
-	i. `cd /home/git`
+ i. `cd /home/git`
 	ii. `mkdir PROJECT_NAME.git`
 	iii. `cd PROJECT_NAME.git`
 	iv. `git --bare init --shared`
