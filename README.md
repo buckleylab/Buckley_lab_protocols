@@ -21,6 +21,9 @@ We will make an effort to keep this up to date but please note that some protoco
 ## [Soil chemistry](./Soil_chemistry)
 Protocols for measuring characteristics of soil.
 
+## [DNA extraction](./DNA_extraction)
+Protocols for extracting DNA and RNA from soil.
+
 ## [Gel electrophoresis](./gel_electrophoresis)
 Protocols for running DNA on a gel. This includes gel purification as well as PippinPrep.
 
