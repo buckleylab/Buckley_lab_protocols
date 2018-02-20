@@ -18,7 +18,9 @@ For those of you who wish to add protocols to this repo, please follow the follo
  
 We will make an effort to keep this up to date but please note that some protocols may be older or unused and might need modification for new equipment, software, or methods.  If you see any mistakes or want to add/modify any protocols, please push your changes and contact a lab admin. This repo is a work in progress so we welcome any new protocols as they are designed.
 
-## [Soil chemistry](./Soil_chemistry)
+## Directories
+
+### [Soil chemistry](./Soil_chemistry)
 Protocols for measuring characteristics of soil.
 
 ## [DNA extraction](./DNA_extraction)
