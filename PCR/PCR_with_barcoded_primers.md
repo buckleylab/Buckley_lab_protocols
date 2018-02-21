@@ -62,9 +62,6 @@ you will need to make a separate dilution plate containing all
 running triplicate reactions for each sample to be sequenced. 
 
 6. Run thermocycler protocol for gene of interest
-	* 16S V4 region (515f-806r):
-	* ITS:
-	* rpoB:
 
 * NOTE: we usually run a melt curve after the 30 amplification cycles to distiguish amplification from primer-dimer formations.
 
