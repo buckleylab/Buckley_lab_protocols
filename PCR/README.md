@@ -11,6 +11,8 @@ This directory contains protocols and scripts for amplifying DNA via PCR.
 ## Scripts:
 
 ## PCR recipes and thermocycler protocols:
+* [Thermocycler Conditions for Illumina Miseq Barcoding:](./thermocycler-barcoding-protocol.md)
+	Lists thermocycler conditions used to barcode samples for Illumina Miseq Sequencing.
 
 ## Primer lists and sequences:
 * [Illumina primers:](./Illumina_primer_list.md)
