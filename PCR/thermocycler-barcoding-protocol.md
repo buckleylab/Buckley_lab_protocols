@@ -15,9 +15,9 @@ See Printing protocols in the README
 
 * 95C for 2 minutes (denaturation)
 * 29 cycles of...
- * 95C for 20 seconds
- * 55C for 15 seconds
- * 72C for 10 seconds
+1. 95C for 20 seconds
+2. 55C for 15 seconds
+3. 72C for 10 seconds
 * 55 to 95C, in 0.5C increments (melting curve)
 * 72C for 5 minutes (elongation)
 * 4C forever
@@ -26,22 +26,24 @@ See Printing protocols in the README
 
 * 98C for 30 seconds (denaturation)
 * 29 cycles of...
- * 95C for 5 seconds
- * 50C for 20 seconds
- * 72C for 10 seconds
+1. 95C for 5 seconds
+2. 50C for 20 seconds
+3. 72C for 10 seconds
 * 75 to 95C, in 0.5C increments (melting curve)
 * 72C for 2 minutes (elongation)
 * 4C forever
+
 If these conditions don't give good results, try the longer protocol below.
 
 ## ITS1 region (long version)
 
 * 98C for 2 minutes (denaturation)
 * 29 cycles of...
- * 95C for 30 seconds
- * 55C for 30 seconds
- * 72C for 30 seconds
+1. 95C for 30 seconds
+2. 55C for 30 seconds
+3. 72C for 30 seconds
 * 55 to 95C, in 0.5C increments (melting curve)
 * 72C for 5 minutes (elongation)
 * 4C forever
+
 ITS is tricky and you may need to fiddle with the cycle conditions to work with your samples.
