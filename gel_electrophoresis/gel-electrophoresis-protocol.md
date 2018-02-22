@@ -1,17 +1,17 @@
 Gel Electrophoresis Protocol
 ============================
 
-##Authorship
+## Authorship
 
 Cassandra Wattenburger (2018)
 
-##Description
+## Description
 How to run a gel for visualizing PCR amplicons.
 
-##Printing this protocol
+## Printing this protocol
 See Printing protocols in the README
 
-##Materials
+## Materials
 
 * Gloves (wear them)
 * Molecular-grade agarose powder
@@ -25,7 +25,7 @@ See Printing protocols in the README
 * DNA ladder
 * PCR amplified DNA samples
 
-##Method
+## Method
 1. Put agarose and 0.5x TAE into flask to achieve desired gel viscosity using the scale and graduated cylinder to measure, respectively.
 * 1% agarose is fine for 16S V4 and ITS1 amplicons
 * A higher % agarose is better for smaller amplicon sizes
