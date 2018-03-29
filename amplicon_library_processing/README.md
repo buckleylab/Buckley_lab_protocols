@@ -1,8 +1,8 @@
 
-# Soil Chemistry
+# Amplicon Library Processing
 
 ## Description
-This directory contains protocols for amplicon library quality filtering and processing.
+This directory contains protocols for amplicon library processing.
 
 ## Protocols
 
