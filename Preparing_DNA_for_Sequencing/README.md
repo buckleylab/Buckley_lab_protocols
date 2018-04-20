@@ -9,3 +9,5 @@ Most of our sequencing is performed at the [Cornell Sequencing Center](http://ww
 ### [Illumina MiSeq library preparation](./Illumina_MiSeq_library_preparation.md)
 Post-PCR pipeline for sequencing a library consisting of barcoded DNA on Illumina's MiSeq technology.
  
+### [Gel extraction protocol](./.md)
+Running library on a gel and extracting DNA.
