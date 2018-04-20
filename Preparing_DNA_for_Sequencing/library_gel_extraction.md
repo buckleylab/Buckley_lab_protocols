@@ -5,7 +5,7 @@ Gel extraction protocol
 
 Chantal Koechli, and Nick Youngblut (2011-2014)
 
-Updated: Cassi Wattenburger 4/20/18 (increased amount of SybrSafe and gel dye to add)
+Updated: Cassi Wattenburger 4/20/18 (increased amount of SybrSafe and gel dye to add, voltage)
 
 
 ## Printing this protocol
@@ -50,7 +50,8 @@ SybrSafe.
 1. Load 50-55 uL of the sample into an individual well until all the sample is loaded. 
 	* Use 7.5 ul of 100 bp ladder in the 1st lane (+1.5 ul of 6X loading dye).
 
-1. Run the gel at ~35 volts for ~1.5 hours. 
+1. Run the gel at ~50 volts for ~1.5 hours.
+	* Lower voltage gives crisper bands, but takes much longer.
 
 1. Pre-weight 2 mL microcentrifuge tubes (1 per sample).
 
