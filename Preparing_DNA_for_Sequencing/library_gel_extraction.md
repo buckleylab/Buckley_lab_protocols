@@ -21,7 +21,7 @@ some modifications
 ## Gel
 
 * 1.5% low melt agarose gel with SybrSafe
-* ~35V for 1-1.5 hrs
+* ~75V for 1-1.5 hrs (needs updating on time frame)
 
 
 ## Gel clean-up kit modifications
@@ -50,7 +50,7 @@ SybrSafe.
 1. Load 50-55 uL of the sample into an individual well until all the sample is loaded. 
 	* Use 7.5 ul of 100 bp ladder in the 1st lane (+1.5 ul of 6X loading dye).
 
-1. Run the gel at ~50 volts for ~1.5 hours.
+1. Run the gel at ~75 volts for ~1.5 hours.
 	* Lower voltage gives crisper bands, but takes much longer.
 
 1. Pre-weight 2 mL microcentrifuge tubes (1 per sample).
