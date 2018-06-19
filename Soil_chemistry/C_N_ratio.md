@@ -16,7 +16,7 @@ This test measures the total carbon and total nitrogen content in the soil sampl
 
 # Equipment and Reagents
 
-1. LECO machine
+1. LECO machine (LECO TruMac Model 630-300-400)
 2. Ceramic boats
 3. Analytical scale
 4. Soil samples
