@@ -7,6 +7,8 @@ This repo is meant as a references for members and friends of the lab.
 
 Below are descriptions of each of the directories contained in this repo. Within each of the directories is another README file with more detailed descriptions of the contents.
 
+If you would like to print or download one of these protocols you can convert any document here into a PDF by replacing __github.com/...__ in the URL bar to __gitprint.com/...__ and either printing or saving the resulting PDF. For instance, to print this README you would change https://github.com/buckleylab/Buckley_lab_protocols/blob/master/README.md to https://gitprint.com/buckleylab/Buckley_lab_protocols/blob/master/README.md. You may have to alter the print settings to make sure that the entire document fits in a standard page.
+
 For those of you who wish to add protocols to this repo, please follow the following conventions in the heading of your protocol:
 
  * Title
