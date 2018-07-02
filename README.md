@@ -44,7 +44,7 @@ Protocols for using the Buckley lab GCMS. Also includes scripts for GCMS data pr
 ### [PLFA](./PLFA)
 Protocols for conducting PLFA in lab.
 
-### [Working_in_lab]
+### [Working_in_lab](./Working_in_lab)
 Guidelines for conducting oneself in lab.
 
 ### [Using the server](./Using_the_server)
