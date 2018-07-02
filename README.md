@@ -50,5 +50,5 @@ This directory contains information reguarding use of the Buckley Lab server. Th
 Manuals and protocols for using some of the Buckley Lab equipment including:
  * SpeedVac: Used for DNA concentration
  
-### [Previous experiments](.previous_experiments)
+### [Previous experiments](./previous_experiments)
 Notes and protocols for past experiments.
