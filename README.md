@@ -41,6 +41,9 @@ Protocols for conducting an HR-SIP experiment.
 ### [GCMS](./GCMS)
 Protocols for using the Buckley lab GCMS. Also includes scripts for GCMS data processing.
 
+### [PLFA](./PLFA)
+Protocols for conducting PLFA in lab.
+
 ### [Using the server](./Using_the_server)
 This directory contains information reguarding use of the Buckley Lab server. This includes the following topics:
 * General server use
