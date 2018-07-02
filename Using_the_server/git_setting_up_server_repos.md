@@ -36,7 +36,7 @@ You must be part of the group "git" in order to do this on the server.
 
 You are now all set!
 
-## Creating a new master remote repo on the server from started project directory.
+## Creating a new master remote repo on the server from started project directory
 This will make a new master remote repo from a directory that you have 
 already made in your home directory. This is good if you want to begin keeping
 track of changes to a directory of an already started project.
@@ -47,7 +47,7 @@ track of changes to a directory of an already started project.
      - *initiates git repo*
    - `git add .`
      - *adds all current files to tracking*
-     - **Note:** *this would be the time to think about which files you want to track and which you dont (`gitignore`, see below).*
+     - **Note:** *If there are any files you don't want tracked (ie large data files) first set up gitignore (see below)*
    - `git commit -a -m "Initial commit"`
 2. Clone and reinitalize this local repo into the master repo directory on the server
    - `cd /home/git`	
@@ -68,10 +68,19 @@ track of changes to a directory of an already started project.
 
 You are now all set!
 
-Using gitignore
+## Setup gitignore
 1. Create a .gitignore file in the project working directory
    - `cd /home/USERNAME/PROJECT_NAME`
    - `touch .gitignore`
 2. Add rules to the .gitignore file
    - `nano .gitignore`
    - *Add whatever file or directory names to this file that you want ignored. Bonus points if you leave comments as to why.*
+3. Now you can add files to git using `git add .` and git will ignore the files listed in .gitignore
+
+## Using git
+- `git status`
+   - *This will list all of the files that are new or modified that will be committed*
+- `git add FILE_NAME`
+   - *Add a new file to the git for tracking*
+- `git commit -m "[descriptive message]"`
+   - *Commit changes to git*
