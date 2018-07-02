@@ -20,9 +20,6 @@ We will make an effort to keep this up to date but please note that some protoco
 
 ## Directories
 
-### [Soil chemistry](./Soil_chemistry)
-Protocols for measuring characteristics of soil.
-
 ### [DNA extraction](./DNA_extraction)
 Protocols for extracting DNA and RNA from soil.
 
@@ -35,14 +32,17 @@ Protocols, scripts, and methods related to DNA amplification with PCR.
 ### [Preparing DNA for sequencing](./Preparing_DNA_for_Sequencing)
 Protocols for preparing DNA (post-PCR) for sequencing.
 
-### [HR-SIP](./HRSIP)
-Protocols for conducting an HR-SIP experiment.
-
 ### [Amplicon library processing](/amplicon_library_processing)
 Guidelines and scripts for processing raw sequencing reads from Illumina MiSeq.
 
+### [HR-SIP](./HRSIP)
+Protocols for conducting an HR-SIP experiment.
+
 ### [GCMS](./GCMS)
 Protocols for using the Buckley lab GCMS. Also includes scripts for GCMS data processing.
+
+### [Soil chemistry](./Soil_chemistry)
+Protocols for measuring characteristics of soil.
 
 ### [PLFA](./PLFA)
 Protocols for conducting PLFA in lab.
