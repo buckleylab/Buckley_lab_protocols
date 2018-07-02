@@ -35,6 +35,9 @@ Protocols, scripts, and methods related to DNA amplification with PCR.
 ### [Preparing DNA for sequencing](./Preparing_DNA_for_Sequencing)
 Protocols for preparing DNA for sequencing. Most are protocols work with post-PCR DNA.
 
+### [HR-SIP](./HRSIP)
+Protocols for conducting an HR-SIP experiment.
+
 ### [GCMS](./GCMS)
 Protocols for using the Buckley lab GCMS. Also includes scripts for GCMS data processing.
 
