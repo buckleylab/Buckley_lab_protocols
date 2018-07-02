@@ -51,12 +51,7 @@ Protocols for conducting PLFA in lab.
 Guidelines for conducting oneself in lab.
 
 ### [Using the server](./Using_the_server)
-This directory contains information reguarding use of the Buckley Lab server. This includes the following topics:
-* General server use
-* Git
-* Jupyter Notebooks
-* R
-* Administration
+This directory contains information reguarding use of the Buckley Lab server.
 
 ### [Lab equipment](./lab_equipment)
 Manuals and protocols for using some of the Buckley Lab equipment including:
