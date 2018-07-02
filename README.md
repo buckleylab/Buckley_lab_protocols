@@ -33,7 +33,7 @@ Protocols for running DNA on a gel including gel excision, size selection and Bl
 Protocols, scripts, and methods related to DNA amplification with PCR.
 
 ### [Preparing DNA for sequencing](./Preparing_DNA_for_Sequencing)
-Protocols for preparing DNA for sequencing. Most are protocols work with post-PCR DNA.
+Protocols for preparing DNA (post-PCR) for sequencing.
 
 ### [HR-SIP](./HRSIP)
 Protocols for conducting an HR-SIP experiment.
