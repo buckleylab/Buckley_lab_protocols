@@ -38,6 +38,9 @@ Protocols for preparing DNA (post-PCR) for sequencing.
 ### [HR-SIP](./HRSIP)
 Protocols for conducting an HR-SIP experiment.
 
+### [Amplicon library processing](/amplicon_library_processing)
+Guidelines and scripts for processing raw sequencing reads from Illumina MiSeq.
+
 ### [GCMS](./GCMS)
 Protocols for using the Buckley lab GCMS. Also includes scripts for GCMS data processing.
 
