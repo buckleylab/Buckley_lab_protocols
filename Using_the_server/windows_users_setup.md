@@ -1,4 +1,4 @@
-WIP Getting set up on the server if you're a Windows user
+Getting set up on the server if you're a Windows user
 ========================================
 
 ### Authorship:
