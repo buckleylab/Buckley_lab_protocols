@@ -19,7 +19,7 @@ This guide is to help new server users get started on a Windows device. It assum
    - Click 'Save' so that you don't have to retype every time
    - Click 'Open' to log in
   
-Tip: To save yourself a little time when you log in, load your saved session, go to Connection > Data, then type your username into the auto-login username box, then save the session again. You'll have to redo this every time you resave the session.
+Tip: To save yourself a little time when you log in, load your saved session, go to Connection > Data, then type your username into the auto-login username box, then save the session again. You'll have to redo this every time you resave the session. Also, you can double click a saved session and it will automatically start.
 
 ## Install Anaconda
 Anaconda is used to create environments on the server. An environment is an independent instance of whatever programs and packages you like.
