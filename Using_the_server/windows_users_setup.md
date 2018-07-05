@@ -34,7 +34,8 @@ but they won't interfere with one-another.
 2. To make sure Anaconda installed correctly:
  `conda list`
    - All of the packages available through Anaconda should be listed
-- Useful Anaconda commands:
+   
+Useful Anaconda commands:
    - Create new environment
    `conda create -n NAME_ENV python=VERSION_NUMBER`
    - Delete environment
@@ -98,8 +99,10 @@ About screens:
    - Click "Add"
    - Navigate back to "Session" and click "Save"
 2. In web browser go to localhost:8787 and log in using your server credentials.
- - There are many packages already installed for R on the server globally, but you should reinstall the ones you plan to use. Reinstallation will put the packages in a local directory, and R will look there first to call the package. These packages won't update or change if the server packages are updated.
- - You could make individual library paths for each project if you want to use different versions of each package. In that case you need to make a directory for those packages and specify the path when installing and loading. This gets complicated quickly though and should probably be avoided.
+
+There are many packages already installed for R on the server globally, but you should reinstall the ones you plan to use. Reinstallation will put the packages in a local directory, and R will look there first to call the package. These packages won't update or change if the server packages are updated.
+
+You could make individual library paths for each project if you want to use different versions of each package. In that case you need to make a directory for those packages and specify the path when installing and loading. This gets complicated quickly though and should probably be avoided.
 
 ## Other helpful tools
 1. FileZilla
