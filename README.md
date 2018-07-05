@@ -39,13 +39,13 @@ Guidelines and scripts for processing raw sequencing reads from Illumina MiSeq.
 Protocols for conducting an HR-SIP experiment.
 
 ### [GCMS](./GCMS)
-Protocols for using the Buckley lab GCMS. Also includes scripts for GCMS data processing.
+Protocols for using the Buckley lab GC/MS. Also includes scripts for GC/MS data processing.
 
 ### [Soil chemistry](./Soil_chemistry)
-Protocols for measuring characteristics of soil.
+Protocols for measuring chemical and physical characteristics of soil.
 
 ### [PLFA](./PLFA)
-Protocols for conducting PLFA in lab.
+Protocols for conducting phospholipid fatty acid extraction in lab.
 
 ### [Working in lab](./Working_in_lab)
 Guidelines for conducting oneself in lab.
