@@ -31,29 +31,30 @@ but they won't interfere with one-another.
  or\
  `wget "https://repo.continuum.io/archive/Anaconda3-5.1.0-Windows-x86_64.exe"`
    - **Note:** The second link may be outdated, you should use the latest Anaconda version link.
-2. To make sure Anaconda installed correctly:
+2. To make sure Anaconda installed correctly:\
  `conda list`
    - All of the packages available through Anaconda should be listed
    
 Useful Anaconda commands:
-   - Create new environment
+   - Create new environment\
    `conda create -n NAME_ENV python=VERSION_NUMBER`
-   - Delete environment
+   - Delete environment\
    `conda remove -NAME_ENV --all`
-   - Activate environment
+   - Activate environment\
    `source activate NAME_ENV`
 
 ## Install Qiime2
-Qiime2 is a software that you can use to analyze sequence data. 
-   - Use the instructions found here: https://docs.qiime2.org/2018.2/install/native/#install-qiime-2-within-a-conda-environment
+Qiime2 is software that you can use to analyze sequence data. It is a wrapper for many other different tools.
+   - Use the instructions found here:\
+   https://docs.qiime2.org/2018.2/install/native/#install-qiime-2-within-a-conda-environment
      - Use the Linux instructions
   
-## Setup Jupyter Notebooks Screens
-Jupyter is a scripting tool that you can use to run code from various languages. This code will allow you to more easily create screens of Jupyter notebook.
-1. Edit the .bashrc
+## Setup Jupyter Notebook screens command
+Jupyter Notebook is a scripting tool that you can use to run code from various languages. This step will create a command to allow you to easily create screens of Jupyter Notebook.
+1. Edit the .bashrc\
    `nano .bashrc`
    - **Don't delete or change any of the other code here.** Use the down arrow to move to the bottom of the file.
-2. Write code for starting screens of Jypyter
+2. Enter the following into the text file:
    ```
    # jupyter notebook command
    jupyter-n () {
@@ -65,8 +66,8 @@ Jupyter is a scripting tool that you can use to run code from various languages.
       fi
      }
    ```
-3. **Cntrl+X** to save and exit. The console will ask you if you want to overwrite and/or what to name the file.
-4. Log out and then back in to the server and this should be functional.
+3. **Cntrl+X** to save and exit. The console will ask you if you want to overwrite (Y) and what to name the file (don't change).
+4. Log out and then back in to the server.
  
 ## Port forwarding Jupyter Notebooks
 Port forwarding creates a user-interface of Jupyter on your web browser.
@@ -76,8 +77,8 @@ Port forwarding creates a user-interface of Jupyter on your web browser.
    - Destination: localhost:PORT_NUMBER (the same port number as chosen above)
    - Click "Add"
    - Navigate back to "Session" and click "Save"
-2. Start a screen
-   - `jupyter-n NOTEBOOK_NAME PORT_NUMBER`
+2. Start a screen\
+   `jupyter-n NOTEBOOK_NAME PORT_NUMBER`
    - If this doesn't work, something went wrong with the Jupyter Notebook setup and you'll need to doublecheck and edit the .bashrc
    - Write down the token given.
    - The screen exists whichever directory you intitiated it in.
@@ -86,13 +87,16 @@ Port forwarding creates a user-interface of Jupyter on your web browser.
    - Log in, you'll need that token.
 
 About screens:
+   - See which screens are currently active\
+   `screen -ls`
    - Detach a screen from the server with **CTRL+A+D**
-   - Reattach the screen with `screen -r`
-   - Kill an attached screen with **CTRL+C**
-   - See which screens are currently active `screen -ls`
+   - Reattach the screen\
+   `screen -r`
+   - Kill an attached screen with **CTRL+C** then ***Y***
+   
   
 ## Port forwarding R Studio
-1. Configure PuTTY for port forwarding
+1. Configure PuTTY
    - In PuTTY navigate to "SSH" > "Tunnels" in the left-hand list of directories.
    - Source port: 8787
    - Destination: localhost:8787
@@ -100,9 +104,9 @@ About screens:
    - Navigate back to "Session" and click "Save"
 2. In web browser go to localhost:8787 and log in using your server credentials.
 
-There are many packages already installed for R on the server globally, but you should reinstall the ones you plan to use. Reinstallation will put the packages in a local directory, and R will look there first to call the package. These packages won't update or change if the server packages are updated.
+There are many packages already installed for R on the server, but you should reinstall the ones you plan to use. Reinstallation will put the packages in a local directory specific to you, and R will look there first to call the packages. These packages won't update or change if the server packages are updated.
 
-You could make individual library paths for each project if you want to use different versions of each package. In that case you need to make a directory for those packages and specify the path when installing and loading. This gets complicated quickly though and should probably be avoided.
+You could make individual library paths for each project if you want to use different package versions. In that case you'll need to make a directory for each R library and specify the path to the directory when installing and loading the packages. However, this gets complicated quickly and should probably be avoided.
 
 ## Other helpful tools
 1. FileZilla
