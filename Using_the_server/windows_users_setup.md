@@ -34,7 +34,7 @@ but they won't interfere with one-another.
 2. To make sure Anaconda installed correctly:
  `conda list`
    - All of the packages available through Anaconda should be listed
-Useful Anaconda commands:
+- Useful Anaconda commands:
    - Create new environment
    `conda create -n NAME_ENV python=VERSION_NUMBER`
    - Delete environment
@@ -53,15 +53,17 @@ Jupyter is a scripting tool that you can use to run code from various languages.
    `nano .bashrc`
    - **Don't delete or change any of the other code here.** Use the down arrow to move to the bottom of the file.
 2. Write code for starting screens of Jypyter
-   `# jupyter notebook command`
-   `jupyter-n () {`
-     `if [-z "$1"]|[-z "$2"]`
-     `then`
-       `echo "Usage: jupyter-n notebook_name port_number"`
-      `else`
-       `screen -S "$1.ipynb" -L jupyer notebook --no-browser --port "$2"`
-      `fi`
-     `}`
+   ```
+   # jupyter notebook command
+   jupyter-n () {
+     if [-z "$1"]|[-z "$2"]
+     then
+       echo "Usage: jupyter-n notebook_name port_number"
+      else
+       screen -S "$1.ipynb" -L jupyer notebook --no-browser --port "$2"
+      fi
+     }
+   ```
 3. **Cntrl+X** to save and exit. The console will ask you if you want to overwrite and/or what to name the file.
 4. Log out and then back in to the server and this should be functional.
  
