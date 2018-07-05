@@ -1,4 +1,4 @@
-Getting set up on the server if you're a Windows user
+Server setup for Windows users
 ========================================
 
 ### Authorship:
