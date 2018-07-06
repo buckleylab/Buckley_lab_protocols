@@ -33,7 +33,10 @@ Protocols, scripts, and methods related to DNA amplification with PCR.
 Protocols for preparing DNA (post-PCR) for sequencing.
 
 ### [Amplicon library processing](/amplicon_library_processing)
-Guidelines and scripts for processing raw sequencing reads from Illumina MiSeq.
+Scripts for processing raw sequence reads from Illumina MiSeq.
+
+### [Robot](/robot)
+Spreadsheets and directions for using the robot.
 
 ### [HR-SIP](./HRSIP)
 Protocols for conducting an HR-SIP experiment.
@@ -51,11 +54,11 @@ Protocols for conducting phospholipid fatty acid extraction in lab.
 Guidelines for conducting oneself in lab.
 
 ### [Using the server](./Using_the_server)
-This directory contains information reguarding use of the Buckley Lab server.
+Guidelines and directions for using the Buckley Lab server.
 
 ### [Lab equipment](./lab_equipment)
 Manuals and protocols for using some of the Buckley Lab equipment including:
  * SpeedVac: Used for DNA concentration
  
 ### [Previous experiments](./previous_experiments)
-Notes and protocols for past experiments.
+Notes and protocols from past experiments.
