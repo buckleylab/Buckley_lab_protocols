@@ -12,14 +12,14 @@ This guide is to help new server users get started on a Windows device. It assum
 ## Connect to the server
 1. Have someone already on the server make you an account.
 2. Download and install PuTTY (https://www.chiark.greenend.org.uk/~sgtatham/putty/)
-   - PuTTY is how you log in to the server.
+   - PuTTY is how you login to the server.
 3. Connect to the server by entering in the following info:
    - Host name: doe-sys76.ag.cornell.edu
    - Connection type: SSH
    - Click 'Save' so that you don't have to retype every time
    - Click 'Open' to log in
   
-Tips: To save yourself a little time when you log in, load your saved session, go to Connection > Data, then type your username into the auto-login username box, then save the session again. Also, you can double click a saved session and it will automatically start.
+Tips: To save yourself a little time when you login, load your saved session, go to Connection > Data, then type your username into the auto-login username box, then save the session again. Also, you can double click a saved session and it will automatically start.
 
 ## Install Anaconda
 Anaconda is used to create environments on the server. An environment is an independent instance of whatever programs and packages you like.
@@ -49,7 +49,7 @@ Qiime2 is software that you can use to analyze sequence data. It is a wrapper fo
    https://docs.qiime2.org/2018.2/install/native/#install-qiime-2-within-a-conda-environment
      - Use the Linux instructions
   
-## Setup Jupyter Notebook screens command
+## Write Jupyter Notebook screens command
 Jupyter Notebook is a scripting tool that you can use to run code from various languages. This step will create a command to allow you to easily create screens of Jupyter Notebook.
 1. Edit the .bashrc\
    `nano .bashrc`
@@ -83,7 +83,7 @@ Port forwarding creates a user-interface of Jupyter on your web browser.
    - Write down the token given.
    - The screen exists whichever directory you intitiated it in.
 3. Interact with your screen using port-forwarding
-   - In web browser type locahost:PORT_NUMBER
+   - In web browser type localhost:PORT_NUMBER
    - Log in, you'll need that token.
 
 About screens:
