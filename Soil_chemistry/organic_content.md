@@ -11,6 +11,11 @@ are also used.
 
 Chantal Koechli, Sam Barnett and Nick Youngblut (2015)
 
+## Updated
+
+Cassi Wattenburger (2018)
+* more detail after talking with Akio
+* corrected inconsistencies in protocol
 
 ## Printing this protocol
 
@@ -28,7 +33,7 @@ is a taxonomic criterion for organic soil materials (Soil Survey Staff, 2014).
 
 ### Preparation
 
-* Dry sample overnight at 110<sup>o</sup>C.
+* Dry sample overnight at 110<sup>o</sup>C and cool in dessicator.
 * Place samples in clean and dry crucibles.
   * Weigh empty crucible weight
    * This is your **crucible weight (g)** 
@@ -36,12 +41,18 @@ is a taxonomic criterion for organic soil materials (Soil Survey Staff, 2014).
 * Weigh the sample + crucible.
   * This the the **pre-ignition weight (g)**
 
+Notes (CW):
+* Crucibles that are sooty or appear unclean should be rinsed with water and fired at 400<sup>o</sup>C or higher for an hour and allowed to cool in dessicator (not sure if dessicator is necessary for this) before using.
+ * This combusts any residue that might skew where final SOM calculation.
+* Crucibles can be labelled with grease pens.
+* Soil depth in the crucible matters, oxygen may not be able to penetrate all the way to the bottom of the crucible if the soil is too deep and the C will pyrolize instead of combust. Use less soil or a shallow crucible if you think this could be a problem.
+
 ### Loss on ignition
 
 * Place sample in a cold muffle furnace and raise the temperature to 400<sup>o</sup>C.
   * Optimum furnace ramp time is 5<sup>o</sup>C/min.
 * Heat sample overnight (16 h)
-* Once cooled, place samples in drying oven for >= 30 min
+* Once complete, place samples in dessicator to cool
 * Weigh the sample + crucible.
   * This the the **post-ignition weight (g)**
 
@@ -76,20 +87,20 @@ goggles.  Handle the heated material with tongs.
 ## Procedure
 
 1. Weigh empty crucible and record crucible weight.
-1. Place a 10 to 15 g sample in a crucible.
-1. Record which crucible contains each sample.
-1. Dry sample at 110<sup>o</sup>C overnight.
-1. Remove sample from oven and cool in a desiccator.
-1. When cool, record pre-ignition weight to nearest 0.01 g.
-1. Place sample in a cold muffle furnace. Turn on furnace and start programmed run (To set program, see section "Muffle furnace program setting").
-1. For muffle furnace in Lehmann Lab:
+2. Place a 10 to 15 g sample in a crucible.
+3. Record which crucible contains each sample.
+4. Dry sample at 110<sup>o</sup>C overnight.
+5. Remove sample from oven and cool in a desiccator.
+6. When cool, record pre-ignition weight to nearest 0.01 g.
+7. Place sample in a cold muffle furnace. Turn on furnace and start programmed run (To set program, see section "Muffle furnace program setting").
+8. For muffle furnace in Lehmann Lab:
    1. Press left most button till it reads "Run".
-   1. Press second button to left untill screen reads "Stat off".
-   1. Press right most button once. Screen should read "Stat on".
-   1. If program needs to be stopped, press second button to right once. Screen should read "Stat off".
-1. Furnace should increase tempereature at a rate of 5<sup>o</sup>C/min. Then hold at 400<sup>o</sup>C for 16 h.
-1. Once fernace cools to 105<sup>o</sup>C, remove samples and place in desiccator to cool.
-1. When cool, record post-ignition weight to nearest 0.01 g.
+   2. Press second button to left untill screen reads "Stat off".
+   3. Press right most button once. Screen should read "Stat on".
+   4. If program needs to be stopped, press second button to right once. Screen should read "Stat off".
+9. Furnace should increase tempereature at a rate of 5<sup>o</sup>C/min. Then hold at 400<sup>o</sup>C for 16 h.
+10. Once fernace cools to 105<sup>o</sup>C, remove samples and place in desiccator to cool.
+11. When cool, record post-ignition weight to nearest 0.01 g.
 
 
 # Report
