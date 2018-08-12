@@ -41,12 +41,6 @@ is a taxonomic criterion for organic soil materials (Soil Survey Staff, 2014).
 * Weigh the sample + crucible.
   * This the the **pre-ignition weight (g)**
 
-Notes (CW):
-* Crucibles that are sooty or appear unclean should be rinsed with water and fired at 400<sup>o</sup>C or higher for an hour and allowed to cool in dessicator (not sure if dessicator is necessary for this) before using.
- * This combusts any residue that might skew where final SOM calculation.
-* Crucibles can be labelled with grease pens.
-* Soil depth in the crucible matters, oxygen may not be able to penetrate all the way to the bottom of the crucible if the soil is too deep and the C will pyrolize instead of combust. Use less soil or a shallow crucible if you think this could be a problem.
-
 ### Loss on ignition
 
 * Place sample in a cold muffle furnace and raise the temperature to 400<sup>o</sup>C.
@@ -102,6 +96,11 @@ goggles.  Handle the heated material with tongs.
 10. Once fernace cools to 105<sup>o</sup>C, remove samples and place in desiccator to cool.
 11. When cool, record post-ignition weight to nearest 0.01 g.
 
+## Notes
+* Even if the soils were previously dried, they still need to be dried over night to evaporate hygroscopic water
+* Make sure soils are free of rocks and debris.
+* Crucibles that are sooty or appear unclean should be rinsed with water and fired at 400<sup>o</sup>C or higher for an hour and allowed to cool before using.
+* Soil depth in the crucible matters, oxygen may not be able to penetrate all the way to the bottom of the crucible if the soil is too deep and the C will pyrolize instead of combust. Use less soil or a shallow crucible if you think this could be a problem.
 
 # Report
 
