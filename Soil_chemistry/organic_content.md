@@ -19,7 +19,6 @@ Cassi Wattenburger (2018, more detail)
 
 See **Printing protocols** in the [README](../README.md#printing-protocols-conversion-of-protocols-to-pdf)
 
-
 ## Application
 
 The mineral content consists of the plant ash and soil particles that remain 
@@ -43,14 +42,12 @@ is a taxonomic criterion for organic soil materials (Soil Survey Staff, 2014).
 **NOTE:** The sample must be placed in a cold muffle furnace to prevent rapid 
 combustion and sample splattering
 
-
 ## Safety
 
 Use caution when the muffle furnace is hot.  Wear protective clothing and 
 goggles.  Handle the heated material with tongs.  
   
 Indicating dessicant (blue/pink) contains cobaltous chloride which is a potential carcinogen. Wear gloves when handling and avoid inhaling by handling in a fume hood (drierite can produce a lot of dust when poured).
-
 
 ## Procedure
 
@@ -80,16 +77,10 @@ Indicating dessicant (blue/pink) contains cobaltous chloride which is a potentia
 (pre-ignition\_weight - crucible\_weight) * 100
 * %\_mineral\_content = 100 - %\_organic\_matter
 
-
 ## Notes
 * Even if the soils were previously dried, they still need to be dried overnight to evaporate hygroscopic water.
 * Soil depth in the crucible matters, oxygen may not be able to penetrate all the way to the bottom of the crucible if the soil is too deep and the C will pyrolize instead of combust. Use less soil or a shallow crucible if you think this could be a problem. Do not use crucible lids.
 * Samples are cooled in a dessicator to prevent moisture from hygroscopically attaching to the crucible/soil.
-
-# Report
-
-Report mineral content to the nearest whole percent.
-
 
 # Muffle furnace program setting
 
