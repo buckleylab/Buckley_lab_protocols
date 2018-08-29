@@ -13,8 +13,7 @@ Chantal Koechli, Sam Barnett and Nick Youngblut (2015)
 
 ## Updated
 
-Cassi Wattenburger (2018)
-* more detail and condensed
+Cassi Wattenburger (2018, more detail)
 
 ## Printing this protocol
 
