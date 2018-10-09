@@ -16,7 +16,7 @@ To be a good lab denizen, if you've been using the robot extensively, please do 
 
 # Protocol
 
-* Soak the troudhs in 10% bleach solution for 20-30 minutes
+* Soak the troughs in 10% bleach solution for 20-30 minutes
 * Rinse each trough 3x in destilled water
 * Replace the troughs in the pipette tip boxes
   * Make sure to re-insert any plastic dividing tabs that fall out of the troughs
