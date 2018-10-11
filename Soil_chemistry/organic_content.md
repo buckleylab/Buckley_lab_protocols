@@ -85,7 +85,7 @@ Indicating dessicant (blue/pink) contains cobaltous chloride which is a potentia
 
 # Muffle furnace PID setting
 
-* The PID is a set of algorithms that ensures the furnace does not over or undershoot the target temperatures while running. The algorithms differ based on the maximum temperature. There is a laminated scrap of paper in the drawer below the furnace with varioous PID settings recorded. The settings below are for 450 C (close enough to our max temp).
+The PID is a set of algorithms that ensures the furnace does not over or undershoot the target temperatures while running. The algorithms differ based on the maximum temperature. There is a laminated scrap of paper in the drawer below the furnace with various PID settings recorded. The settings below are for 450<sup>o</sup>C (close enough to our max temp).
 
 1. Press left most button until screen reads "Pid List"
 2. Press the second button to run through parameters. Parameters can be changed by pressing up or down arrow buttons (the two right buttons).
