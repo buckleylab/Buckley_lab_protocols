@@ -7,7 +7,7 @@ Cassandra Wattenburger (2018)
 
 ## Description
 How to run a gel for visualizing PCR amplicons.
-Note: This is NOT the protocol you should use for extracting sequencing libraries. See _________ instead.
+Note: This is NOT the protocol you should use for extracting sequencing libraries. See gel_extraction.md instead.
 
 ## Printing this protocol
 See Printing protocols in the README
