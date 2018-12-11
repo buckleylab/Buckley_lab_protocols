@@ -72,7 +72,8 @@ Jupyter Notebook is a scripting tool that you can use to run code from various l
 ## Port forwarding Jupyter Notebooks
 Port forwarding creates a user-interface of Jupyter on your web browser.
 1. Configure PuTTY for port forwarding
-   - In PuTTY navigate to "SSH" > "Tunnels" in the left-hand list of directories.
+   - In PuTTY, select the session that the port will be attributed to
+   - Navigate to "SSH" > "Tunnels" in the left-hand list of directories.
    - Source port: any number of your choosing that is 4 digits and ends in 0. This needs to be a number someone else isn't already using.
    - Destination: localhost:PORT_NUMBER (the same port number as chosen above)
    - Click "Add"
@@ -81,7 +82,8 @@ Port forwarding creates a user-interface of Jupyter on your web browser.
    `jupyter-n NOTEBOOK_NAME PORT_NUMBER`
    - If this doesn't work, something went wrong with the Jupyter Notebook setup and you'll need to doublecheck and edit the .bashrc
    - Write down the token given.
-   - The screen exists whichever directory you intitiated it in.
+   - The screen exists in whichever directory you intitiated it in.
+   - Each screen needs its own port number and session.
 3. Interact with your screen using port-forwarding
    - In web browser type localhost:PORT_NUMBER
    - Log in, you'll need that token.
