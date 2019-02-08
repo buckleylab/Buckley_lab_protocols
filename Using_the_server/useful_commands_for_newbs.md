@@ -13,8 +13,6 @@ See **Printing protocols** in the [README](../README.md#printing-protocols-conve
 
 ## Usfeul commands for using the server
 
-### Connect to the using `ssh` and port forwarding
-
 * htop
   * check processor and memory usage on the server, useful before starting a resource-heavy analysis so that people don't get mad at you
   
