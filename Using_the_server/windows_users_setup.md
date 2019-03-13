@@ -4,7 +4,8 @@ Server setup for Windows users
 ### Authorship:
 Cassi Wattenburger (July 2018)
 
-### Updated by:
+#### Updated by: 
+Cassi (March 2019)
 
 ### Description:
 This guide is to help new server users get started on a Windows device. It assumes little knowledge of command line or how servers work.
@@ -12,7 +13,7 @@ This guide is to help new server users get started on a Windows device. It assum
 ## Connect to the server
 1. Have someone already on the server make you an account.
 2. Download and install PuTTY (https://www.chiark.greenend.org.uk/~sgtatham/putty/)
-   - PuTTY is how you login to the server.
+   - PuTTY is how you login and interact wtih the server.
 3. Connect to the server by entering in the following info:
    - Host name: doe-sys76.ag.cornell.edu
    - Connection type: SSH
@@ -49,7 +50,7 @@ Qiime2 is software that you can use to analyze sequence data. It is a wrapper fo
    https://docs.qiime2.org/2018.2/install/native/#install-qiime-2-within-a-conda-environment
      - Use the Linux instructions
   
-## Write Jupyter Notebook screens command
+## Make Jupyter Notebook screens command
 Jupyter Notebook is a scripting tool that you can use to run code from various languages. This step will create a command to allow you to easily create screens of Jupyter Notebook.
 1. Edit the .bashrc\
    `nano .bashrc`
@@ -69,8 +70,20 @@ Jupyter Notebook is a scripting tool that you can use to run code from various l
 3. **Cntrl+X** to save and exit. The console will ask you if you want to overwrite (Y) and what to name the file (don't change).
 4. Log out and then back in to the server.
  
+## About screens:
+A screen is an independent instance of the server that can allow you to continue long-running processes even when you aren't logged-in (thus protecting your work). You can also use screens to run multiple commands or processes on the server at once. An attached screen can be intereacted with through the PuTTY terminal. A detached screen cannot be interacted with in this way, but will run independently.
+
+   - See which screens are currently active\
+   `screen -ls`
+   - Create a named screen\
+   `screen -S NAME_SCREEN
+   - Detach a screen from the server with **CTRL+A+D**
+   - Reattach the screen\
+   `screen -r`
+   - Kill an attached screen with **CTRL+C** then ***Y***
+
 ## Port forwarding Jupyter Notebooks
-Port forwarding creates a user-interface of Jupyter on your web browser.
+Port forwarding creates a user-interface of a Jupyter Notebooks screen on your web browser.
 1. Configure PuTTY for port forwarding
    - In PuTTY, select the session that the port will be attributed to
    - Navigate to "SSH" > "Tunnels" in the left-hand list of directories.
@@ -87,15 +100,6 @@ Port forwarding creates a user-interface of Jupyter on your web browser.
 3. Interact with your screen using port-forwarding
    - In web browser type localhost:PORT_NUMBER
    - Log in, you'll need that token.
-
-About screens:
-   - See which screens are currently active\
-   `screen -ls`
-   - Detach a screen from the server with **CTRL+A+D**
-   - Reattach the screen\
-   `screen -r`
-   - Kill an attached screen with **CTRL+C** then ***Y***
-   
   
 ## Port forwarding R Studio
 1. Configure PuTTY
@@ -114,6 +118,7 @@ You could make individual library paths for each project if you want to use diff
 1. FileZilla
    - Allows you to easily transfer files from the server to your computer and vice-versa.
 2. Xming
+   - Alternative to PuTTY with graphical displays.
  
   
  
