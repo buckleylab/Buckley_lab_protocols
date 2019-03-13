@@ -43,6 +43,8 @@ Useful Anaconda commands:
    `conda remove -NAME_ENV --all`
    - Activate environment\
    `source activate NAME_ENV`
+   - Deactivate an environment
+   `source deactivate`
 
 ## Install Qiime2
 Qiime2 is software that you can use to analyze sequence data. It is a wrapper for many other different tools.
@@ -71,7 +73,7 @@ Jupyter Notebook is a scripting tool that you can use to run code from various l
 4. Log out and then back in to the server.
  
 ## About screens:
-A screen is an independent instance of the server that can allow you to continue long-running processes even when you aren't logged-in (thus protecting your work). You can also use screens to run multiple commands or processes on the server at once. An attached screen can be intereacted with through the PuTTY terminal. A detached screen cannot be interacted with in this way, but will run independently.
+A screen is an independent instance of the server that can allow you to continue long-running processes even when you aren't logged-in (thus protecting your work). You can also use screens to run multiple commands or processes on the server at once. An attached screen can be intereacted with through the PuTTY terminal. A detached screen cannot be interacted with in this way, but will run independently. Screens retain whichever conda environment you opened them in.
 
    - See which screens are currently active\
    `screen -ls`
