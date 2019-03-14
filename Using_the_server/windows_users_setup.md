@@ -37,6 +37,8 @@ but they won't interfere with one-another.
    - All of the packages available through Anaconda should be listed
    
 Useful Anaconda commands:
+   - List existing environments\
+   `conda list --env`
    - Create new environment\
    `conda create -n NAME_ENV python=VERSION_NUMBER`
    - Delete environment\
@@ -72,8 +74,8 @@ Jupyter Notebook is a scripting tool that you can use to run code from various l
 3. **Cntrl+X** to save and exit. The console will ask you if you want to overwrite (Y) and what to name the file (don't change).
 4. Log out and then back in to the server.
  
-## About screens:
-A screen is an independent instance of the server that can allow you to continue long-running processes even when you aren't logged-in (thus protecting your work). You can also use screens to run multiple commands or processes on the server at once. An attached screen can be intereacted with through the PuTTY terminal. A detached screen cannot be interacted with in this way, but will run independently. Screens retain whichever conda environment you opened them in.
+## About screens
+Screens can allow you to continue long-running processes even when you aren't logged-in or connected to the server (thus protecting your work while it's still running). You can also use screens to run multiple processes on the server at once. An attached screen can be intereacted with through the PuTTY terminal. A detached screen cannot be interacted with in this way, but will run independently and will not stop running if you disconnect. Screens retain whichever conda environment you opened them in.
 
    - See which screens are currently active\
    `screen -ls`
@@ -82,7 +84,7 @@ A screen is an independent instance of the server that can allow you to continue
    - Detach a screen from the server with **CTRL+A+D**
    - Reattach the screen\
    `screen -r`
-   - Kill an attached screen with **CTRL+C** then ***Y***
+   - Kill an attached screen with **CTRL+C** then **Y**
 
 ## Port forwarding Jupyter Notebooks
 Port forwarding creates a user-interface of a Jupyter Notebooks screen on your web browser.
@@ -97,10 +99,8 @@ Port forwarding creates a user-interface of a Jupyter Notebooks screen on your w
    `jupyter-n NOTEBOOK_NAME PORT_NUMBER`
    - If this doesn't work, something went wrong with the Jupyter Notebook setup and you'll need to doublecheck and edit the .bashrc
    - Write down the token given.
-   - The screen exists in whichever directory you intitiated it in.
-   - Each screen needs its own port number and session.
 3. Interact with your screen using port-forwarding
-   - In web browser type localhost:PORT_NUMBER
+   - In your web browser type localhost:PORT_NUMBER
    - Log in, you'll need that token.
   
 ## Port forwarding R Studio
@@ -115,6 +115,10 @@ Port forwarding creates a user-interface of a Jupyter Notebooks screen on your w
 There are many packages already installed for R on the server, but you should reinstall the ones you plan to use. Reinstallation will put the packages in a local directory specific to you, and R will look there first to call the packages. These packages won't update or change if the server packages are updated.
 
 You could make individual library paths for each project if you want to use different package versions. In that case you'll need to make a directory for each R library and specify the path to the directory when installing and loading the packages. However, this gets complicated quickly and should probably be avoided.
+
+Unfortunately, you can't create a screen of R Studio. However, you can create a screen of R in the terminal. Just type:
+
+`screen -S SCREEN_NAME /usr/bin/R`
 
 ## Other helpful tools
 1. FileZilla
