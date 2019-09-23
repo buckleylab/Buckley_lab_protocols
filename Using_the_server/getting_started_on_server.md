@@ -1,4 +1,4 @@
-Server setup for Windows users
+Server setup for new users
 ========================================
 
 ### Authorship:
@@ -8,7 +8,7 @@ Cassi Wattenburger (July 2018)
 Cassi (March 2019)
 
 ### Description:
-This guide is to help new server users get started on a Windows device. It assumes little knowledge of command line or how servers work.
+This guide is to help new server users get started on the server. It assumes little knowledge of command line or how servers work.
 
 ## Connect to the server
 1. Have someone already on the server make you an account.
@@ -27,14 +27,16 @@ Anaconda is used to create environments on the server. An environment is an inde
 This way you can have two versions of the same software installed at the same time for different projects, 
 but they won't interfere with one-another.
 
-1. In command line:\
- `bash Anaconda-latest-Linux-x86.sh`   
- or\
- `wget "https://repo.continuum.io/archive/Anaconda3-5.1.0-Windows-x86_64.exe"`
-   - **Note:** The second link may be outdated, you should use the latest Anaconda version link.
-2. To make sure Anaconda installed correctly:\
+1. Download the Linux Anaconda installer:
+   `wget "https://repo.anaconda.com/archive/Anaconda3-2019.07-Linux-x86_64.sh"`
+    - This link may be out of date. Check https://www.anaconda.com/distribution/ for the latest download link.
+2. Install:
+   '`bash Anaconda3-2019.07-Linux-x86_64.sh`
+   - Use the name of whatever file you downloaded in the previous step.
+   - Follow the prompts.
+3. To make sure Anaconda installed correctly:\
  `conda list`
-   - All of the packages available through Anaconda should be listed
+   - All of the packages available through Anaconda should be listed. If not, something went wrong.
    
 Useful Anaconda commands:
    - List existing environments\
@@ -49,10 +51,10 @@ Useful Anaconda commands:
    `source deactivate`
 
 ## Install Qiime2
-Qiime2 is software that you can use to analyze sequence data. It is a wrapper for many other different tools.
+Qiime2 is software that you can use to analyze sequence data. It is a wrapper for many different software and makes them all easier to use together.
    - Use the instructions found here:\
    https://docs.qiime2.org/2018.2/install/native/#install-qiime-2-within-a-conda-environment
-     - Use the Linux instructions
+     - Use the Linux instructions.
   
 ## Make Jupyter Notebook screens command
 Jupyter Notebook is a scripting tool that you can use to run code from various languages. This step will create a command to allow you to easily create screens of Jupyter Notebook.
