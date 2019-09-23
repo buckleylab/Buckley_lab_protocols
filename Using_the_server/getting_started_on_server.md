@@ -38,7 +38,7 @@ Anaconda is used to create environments on the server. An environment is an inde
    
 Useful Anaconda commands:
    - List existing environments\
-   `conda list --env`
+   `conda info --envs`
    - Create new environment\
    `conda create -n NAME_ENV python=VERSION_NUMBER`
    - Delete environment\
