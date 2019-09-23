@@ -8,7 +8,7 @@ Cassi Wattenburger (July 2018)
 Cassi (Sept 2019)
 
 ### Description:
-This guide is to help new server users get started on the server. It assumes little knowledge of command line or how servers work.
+This guide is to help new users get started on the server. It assumes little knowledge of command line or how servers work.
 
 ## Connect to the server
 1. Have someone already on the server make you an account.
@@ -20,7 +20,9 @@ This guide is to help new server users get started on the server. It assumes lit
    - Click 'Save' so that you don't have to retype every time
    - Click 'Open' to log in
   
-Tips: To save yourself a little time when you login, load your saved session, go to Connection > Data, then type your username into the auto-login username box, then save the session again. Also, you can double click a saved session and it will automatically start.
+Tips: 
+* Auto-username: To save yourself a little time when you login, load your saved session, go to Connection > Data, then type your username into the auto-login username box, then save the session again.
+* Double click a saved session and it will automatically start.
 
 ## Install Anaconda
 Anaconda is used to create environments on the server. An environment is an independent instance of whatever programs and package versions you need for a given project. This way you can have two or more versions of the same software installed in different environments but they won't interfere with one-another.
@@ -49,17 +51,17 @@ Useful Anaconda commands:
    `source deactivate`
 
 ## Install Qiime2
-Qiime2 is software that you can use to analyze sequence data. It is a wrapper for many different software and makes them all easier to use together.
+Qiime2 is a software that you can use to process sequence data. It is a wrapper for many different tools and makes them all easier to use together.
    - Use the instructions found here:\
    https://docs.qiime2.org/2019.7/install/native/
-     - Use the Linux instructions. This link may be out of date, in that case use whatever installation instruction are most recent.
+     - Use the Linux instructions. This link may be out of date, in that case use whatever installation instructions are most recent.
   
 ## Make Jupyter Notebook screens command
 Jupyter Notebook is a scripting tool that you can use to run code from various languages. This step will create a command to allow you to easily create screens of Jupyter Notebook.
 1. Edit the .bashrc\
    `nano .bashrc`
    - **Don't delete or change any of the other code here.** Use the down arrow to move to the bottom of the file.
-2. Enter the following into the text file:
+2. Enter the following:
    ```
    # jupyter notebook command
    jupyter-n () {
@@ -73,18 +75,22 @@ Jupyter Notebook is a scripting tool that you can use to run code from various l
    ```
 3. **Cntrl+X** to save and exit. The console will ask you if you want to overwrite (Y) and what to name the file (don't change).
 4. Log out and then back in to the server.
+
+* See [these instructions](https://github.com/buckleylab/Buckley_lab_protocols/blob/master/Using_the_server/jupyter_notebooks.md) for more code to expand the number of jupyter-n screens you can have open at once.
  
 ## About screens
-Screens can allow you to continue long-running processes even when you aren't logged-in or connected to the server (thus protecting your work while it's still running). You can also use screens to run multiple processes on the server at once. An attached screen can be intereacted with through the PuTTY terminal. A detached screen cannot be interacted with in this way, but will run independently and will not stop running if you disconnect. Screens retain whichever conda environment you opened them in.
+Screens allow you to continue long-running processes even when you aren't logged-in or connected to the server (thus protecting your work while it's still running). You can also use screens to run multiple processes on the server at once. An attached screen can be intereacted with through the PuTTY terminal. A detached screen cannot be interacted with in this way, but will run independently and will not stop running if you disconnect. Screens retain whichever directory location and conda environment you opened them in.
 
    - See which screens are currently active\
    `screen -ls`
    - Create a named screen\
-   `screen -S NAME_SCREEN
+   `screen -S NAME_SCREEN`
    - Detach a screen from the server with **CTRL+A+D**
    - Reattach the screen\
    `screen -r`
    - Kill an attached screen with **CTRL+C** then **Y**
+   - Kill detached screen\
+   `screen -X -S NAME_SCREEN quit`
 
 ## Port forwarding Jupyter Notebooks
 Port forwarding creates a user-interface of a Jupyter Notebooks screen on your web browser.
@@ -98,10 +104,9 @@ Port forwarding creates a user-interface of a Jupyter Notebooks screen on your w
 2. Start a screen\
    `jupyter-n NOTEBOOK_NAME PORT_NUMBER`
    - If this doesn't work, something went wrong with the Jupyter Notebook setup and you'll need to doublecheck and edit the .bashrc
-   - Write down the token given.
 3. Interact with your screen using port-forwarding
-   - In your web browser type localhost:PORT_NUMBER
-   - Log in, you'll need that token.
+   - Copy/paste the token given when the screen is started into your web browser.
+   - I suggest copy/pasting the token into some kind of document so you can easily navigate back.
   
 ## Port forwarding R Studio
 1. Configure PuTTY
@@ -116,7 +121,7 @@ There are many packages already installed for R on the server, but you should re
 
 You could make individual library paths for each project if you want to use different package versions. In that case you'll need to make a directory for each R library and specify the path to the directory when installing and loading the packages. However, this gets complicated quickly and should probably be avoided.
 
-Unfortunately, you can't create a screen of R Studio. However, you can create a screen of R in the terminal. Just type:
+Unfortunately, you can't create a screen of R Studio. However, you can create a screen of R in the terminal. Just type:\
 
 `screen -S SCREEN_NAME /usr/bin/R`
 
@@ -125,6 +130,3 @@ Unfortunately, you can't create a screen of R Studio. However, you can create a 
    - Allows you to easily transfer files from the server to your computer and vice-versa.
 2. Xming
    - Alternative to PuTTY with graphical displays.
- 
-  
- 
