@@ -1,4 +1,4 @@
-Useful commands for people who don't understand command line
+Useful commands for people new to command line
 ============================================================
 
 ## Authorship
@@ -36,23 +36,29 @@ See **Printing protocols** in the [README](../README.md#printing-protocols-conve
   * copy a file from one location to another
   
 * `rm FILE_NAME`
-  * delete a file (be careful...)
+  * delete a file
+  
+* `rmdir DIR_NAME
+ * delete a directory
   
 ## Manipulating files
   
 * `wget -q -c -O FILE_PATH`
   * for downloading files from websites, useful for getting sequencing data from the BRC
 
-* `grep -A 1 SEARCH FILE_NAME`
-  * search a file for a string or what have you
+* `grep -A 1 PATTERN FILE_NAME`
+  * search a file for a pattern
 
-* `sed -FILE_NAME s/SEARCH/REPLACE/g`
-  * to search and replace strings in a file
+* `sed -FILE_NAME s/PATTERN/REPLACE/g`
+  * to search and replace patterns in a file
 
 * `head FILE_NAME`
   * look at the top section of a file (useful for big files)
   
+* `less FILE_NAME`
+  * look through file bit by bit. q to exit
+  
 ## Other
 
 * `htop`
-  * check processor and memory usage on the server, useful to check before you start a big job so that the server isn't overwhelmed
+  * check processor and memory usage on the server, useful to check before you start a big job
