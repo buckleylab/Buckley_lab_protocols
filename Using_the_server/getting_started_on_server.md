@@ -5,7 +5,7 @@ Server setup for new users
 Cassi Wattenburger (July 2018)
 
 #### Updated by: 
-Cassi (March 2019)
+Cassi (Sept 2019)
 
 ### Description:
 This guide is to help new server users get started on the server. It assumes little knowledge of command line or how servers work.
@@ -23,17 +23,15 @@ This guide is to help new server users get started on the server. It assumes lit
 Tips: To save yourself a little time when you login, load your saved session, go to Connection > Data, then type your username into the auto-login username box, then save the session again. Also, you can double click a saved session and it will automatically start.
 
 ## Install Anaconda
-Anaconda is used to create environments on the server. An environment is an independent instance of whatever programs and packages you like.
-This way you can have two versions of the same software installed at the same time for different projects, 
-but they won't interfere with one-another.
+Anaconda is used to create environments on the server. An environment is an independent instance of whatever programs and package versions you need for a given project. This way you can have two or more versions of the same software installed in different environments but they won't interfere with one-another.
 
-1. Download the Linux Anaconda installer:
+1. Download the Linux Anaconda installer:\
    `wget "https://repo.anaconda.com/archive/Anaconda3-2019.07-Linux-x86_64.sh"`
     - This link may be out of date. Check https://www.anaconda.com/distribution/ for the latest download link.
-2. Install:
+2. Install:\
    '`bash Anaconda3-2019.07-Linux-x86_64.sh`
-   - Use the name of whatever file you downloaded in the previous step.
    - Follow the prompts.
+   - If the above link was out of date, you'll need to replace the .sh file name in the command with the name of the file you downloaded instead.
 3. To make sure Anaconda installed correctly:\
  `conda list`
    - All of the packages available through Anaconda should be listed. If not, something went wrong.
@@ -53,8 +51,8 @@ Useful Anaconda commands:
 ## Install Qiime2
 Qiime2 is software that you can use to analyze sequence data. It is a wrapper for many different software and makes them all easier to use together.
    - Use the instructions found here:\
-   https://docs.qiime2.org/2018.2/install/native/#install-qiime-2-within-a-conda-environment
-     - Use the Linux instructions.
+   https://docs.qiime2.org/2019.7/install/native/
+     - Use the Linux instructions. This link may be out of date, in that case use whatever installation instruction are most recent.
   
 ## Make Jupyter Notebook screens command
 Jupyter Notebook is a scripting tool that you can use to run code from various languages. This step will create a command to allow you to easily create screens of Jupyter Notebook.
