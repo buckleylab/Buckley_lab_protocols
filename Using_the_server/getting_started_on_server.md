@@ -67,7 +67,7 @@ Jupyter Notebook is a scripting tool that you can use to run code from various l
      then
        echo "Usage: jupyter-n notebook_name port_number"
       else
-       screen -S "$1.ipynb" -L jupyer notebook --no-browser --port "$2"
+       screen -S "$1.ipynb" -L jupyter notebook --no-browser --port "$2"
       fi
      }
    ```
