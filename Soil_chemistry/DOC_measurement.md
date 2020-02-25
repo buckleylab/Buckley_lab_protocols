@@ -1,5 +1,5 @@
-*Dissolved Organic Carbon (and total nitrogen)*
-=========================
+Dissolved Organic Carbon
+========================
 
 These are instructions to measure DOC/TN on the Shimadzu TOC-VCPN and attached TNM-1 in the Goodale lab (Corson E212). Make sure to ask permission from Christine Goodale before using the TOC analyzer.
 
@@ -25,11 +25,11 @@ See **Printing protocols** in the [README](../README.md#printing-protocols-conve
  
 ## Standards
 
-**Note:** the NPOC and TON standards should be made together in the same solution
-
-**Note:** All glassware used to prepare/store standards and samples should be acid-washed (dishwasher) and/or fired at 425°C for at least 1 hr. Do not fire volumetric glassware. The Lehmann lab (Bradfield 916) has a muffle furnace that can be used, Buckley_lab_protocols/Soil_chemistry/organic_content.md.
+**Note:** All glassware used to prepare/store standards must be acid-washed (dishwasher) and/or fired at 425°C for at least 1 hr. The Lehmann lab (Bradfield 916) has a muffle furnace that can be used. Do not fire volumetric glassware. 
 
 **Note:** Stock solutions must be made fresh weekly and stored at 4°C, do not autoclave
+
+**Note:** the NPOC and TON standards should be made together in the same solution
 
 * Blank: 0.05 M HCl (1 full 40 mL vial needed per full run)
  * 4.13 mL 12.1 M HCl (concentrated) into 995.87 mL ddH2O
@@ -46,9 +46,9 @@ o	10 mM Glucose stock: 0.180 g in 100 mL 0.05 M HCl
 o	1 mM: 2 mL in 18 mL 0.05 M HCl
 
 ## Preparing standards and samples
-**Note:** Glassware must be acid washed and/or fired for all standards and samples.
+**Note:** Glassware must be acid washed and/or fired (see above note).
 
-**Note:** Before you can run your samples, you need to know what % 2M HCl must be added to bring the sample to pH 2. Do this on preliminary samples before running your real samples. Acidification removes non-organic C from the sample, such as carbonates.
+**Note:** Before you can run your samples, you need to know what % 2M HCl must be added to bring the sample to pH 2 so you can program the TOC analyzer to acidify the samples appropriately. Acidification removes non-organic C from the sample, such as carbonates.
 
 1.	Prepare standards from stock solutions (ie 1000 ppm KHP/KNO3 and 10-100 mM external stds), diluted in 0.05 M HCl
 2.	Before the run, thaw samples if frozen
