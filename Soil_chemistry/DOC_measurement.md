@@ -34,16 +34,16 @@ See **Printing protocols** in the [README](../README.md#printing-protocols-conve
 * Blank: 0.05 M HCl (1 full 40 mL vial needed per full run)
  * 4.13 mL 12.1 M HCl (concentrated) into 995.87 mL ddH2O
 * NPOC std: 100 and 10 ppm KHP in 0.05 M HCl (3 full 40 mL vials needed per full run)
- * 1000 ppm = 1 g in 1000 mL 0.05 M HCl
- * 100 ppm = 15 mL of 1000 ppm stock into 135 mL 0.05 M HCl
- * 10 ppm = 15 mL of 100 ppm solution into 135 mL 0.05 M HCl
+  * 1000 ppm = 1 g in 1000 mL 0.05 M HCl
+  * 100 ppm = 15 mL of 1000 ppm stock into 135 mL 0.05 M HCl
+  * 10 ppm = 15 mL of 100 ppm solution into 135 mL 0.05 M HCl
 * TON std: 100 and 10 ppm KNO3 in 0.05 M HCl (with KHP)
  * see above
 * External stds: 1 mM alanine, glucose, glycine in 0.05 M HCl (1 half-full 40 mL vial each per run)
-o	10 mM Alanine stock: 0.0891 g in 100 mL 0.05 M HCl
-o	10 mM Glycine stock: 0.0751 g in 100 mL 0.05 M HCl
-o	10 mM Glucose stock: 0.180 g in 100 mL 0.05 M HCl
-o	1 mM: 2 mL in 18 mL 0.05 M HCl
+  * 10 mM Alanine stock: 0.0891 g in 100 mL 0.05 M HCl
+  * 10 mM Glycine stock: 0.0751 g in 100 mL 0.05 M HCl
+  * 10 mM Glucose stock: 0.180 g in 100 mL 0.05 M HCl
+  * 1 mM: 2 mL in 18 mL 0.05 M HCl
 
 ## Preparing standards and samples
 **Note:** Glassware must be acid washed and/or fired (see above note).
@@ -83,12 +83,12 @@ a.	Remember to turn it off before you leave after starting the run
 1.	Make one calibration curve each for NPOC and TN measurements
 2.	Make a method file, File > New > Calibration Curve > ✓ Edit Manually > ✓ Dilution from standard > Analysis (choose NPOC or TN) > (Name whatever you want) > ✓ Multiple injections > Calculation method: Linear, do not check Zero Shift > (Name the file and place in your folder)
 3.	Options to select:
-a.	No. injections: 3/5
-b.	Lower the number of washes if sample is limited
-c.	Enter each standard concentration (as a dilution factor of the 100 or 10 ppm std)
-i.	Typical curve: 100, 50, 25, 10, 5, 0
-d.	Injection volume: 80 uL
-e.	No acidification (already in 0.05 M HCl)
+  a.	No. injections: 3/5
+  b.	Lower the number of washes if sample is limited
+  c.	Enter each standard concentration (as a dilution factor of the 100 or 10 ppm std)
+  i.	Typical curve: 100, 50, 25, 10, 5, 0
+  d.	Injection volume: 80 uL
+  e.	No acidification (already in 0.05 M HCl)
 4.	Finish making the calibration curve
 
 ## Making sampling method files
@@ -105,7 +105,8 @@ e.	No acidification (already in 0.05 M HCl)
 ## Setting up/starting the run
 1.	Place your blank, standards, and samples in the carousel
 2.	Put both of your calibration curves as the first two entries into the sample editor, Insert > Calibration Curve > (appropriate .cal file), enter the appropriate vial positions on the carousel according to the dilution scheme
-a.	Note: use the first 100 ppm std vial for one calibration curve, and the second for the other calibration curve to ensure you have enough std for each
+  a.	Note: use the first 100 ppm std vial for one calibration curve, and the second for the other calibration curve to ensure you have
+  enough std for each
 3.	Insert your external checks into the next three entries, using the external std method, enter appropriate vial positions from the carousel
 4.	Insert a blank using the internal check method file, use the 0.05 M HCl blank vial
 5.	Insert an internal standard (25 ppm) using the internal check method, use the 3rd 100 ppm vial
