@@ -4,5 +4,5 @@
 This directory contains protocols for ectracting PLFAs from soil samples.
 
 ## Protocols:
-### [PLFA extraction](./PLFA_extraction.md.md)
+### [PLFA extraction](./PLFA_extraction.md)
 Protocol to extract soil PLFAs. 
