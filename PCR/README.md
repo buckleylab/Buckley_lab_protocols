@@ -18,8 +18,4 @@ Lists thermocycler conditions used to barcode samples for Illumina Miseq Sequenc
 Barcoded primers with Illumina MiSeq adaptors used for sequencing.
 ### [16S barcodes for demultiplexing](./16S_primer_barcodes_for_demultiplexing.xlsx)
 Sequences used for demultiplexing raw data.
-
-## Scripts:
-### [Robot template for PCR](./template PCR robot sheet.xls)
-Use this template to direct robot for PCR set up.
 	
