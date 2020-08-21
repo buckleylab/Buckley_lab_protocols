@@ -5,10 +5,11 @@ This directory contains protocols and scripts for using the Buckley Lab GCMS. Mo
 [lab equipment](../lab_equipment).
 
 ## Protocols:
-* [Example:](./protocols.md)
+* [GCMS operation](./GCMS_operation.md)
+* [Headspace sampling](./headspace_sampling.md)
 
 ## Scripts:
 [Data processing](./GCMS_data_processing.ipynb)
 
 ## Manuals:
-GCMS manuals can be found from Shimadzu(https://www.shimadzu.com/)
+GCMS manuals can be found at Shimadzu (https://www.shimadzu.com/)
