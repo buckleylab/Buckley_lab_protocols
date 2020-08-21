@@ -2,9 +2,9 @@
 # Amplicon Library Processing
 
 ## Description
-This directory contains protocols for amplicon library processing.
+This directory contains scripts for amplicon library processing.
 
-## Protocols
+## Scripts
 
 ### [Qiime2 sequence processing pipeline](./QIIME2_Processing_Pipeline.ipynb)
 Demultiplex, denoise, create OTU table, and classify sequences from Illumina Miseq amplicon data.
