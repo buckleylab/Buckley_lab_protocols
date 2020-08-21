@@ -23,5 +23,6 @@ Measuring soil pH.
 ### [Water holding capacity](./water_holding_capacity.md) 
 Measuring the water holding capacity of soil. An example sample datasheet can be found here [water_holding_capacity_datasheet.docx](./water_holding_capacity_datasheet.docx).
   
-### [DOC](./DOC_measurement.md): Measure dissolved organic carbon from filtered soil DOC samples.
+### [DOC](./DOC_measurement.md)
+Measure dissolved organic carbon from filtered soil DOC samples.
 
