@@ -5,6 +5,8 @@ Protocol for quantifying CO2 in headspace samples with the Shimadzu GCMS-QP2010
 
 Ashley Campbell, Chantal Koechli, Nick Youngblut and Sam Barnett (2016)
 
+Updated 2021 by Cassi Wattenburger (more details)
+
 
 ## Printing this protocol
 
@@ -34,6 +36,22 @@ This can be done using the GCMS software.
 	* Check the amount of carrier gas still in the tank.  
 
 ## Procedure:
+
+### Prior to start up:
+* Change carrier gas tank if low
+	1. Make sure He tank is closed
+	2. Use large wrench and turn the regulator connection counter-clockwise to loosen
+	3. Hold the column in one hand while you use the other to move the new tank in place
+		* The column is delicate and should not be bumped or placed down
+	4. Tighten the regulator connection clock-wise until you can no longer tighten it
+	5. Check for leaks using soapy water
+		* Open the tank to allow gas flow and slowly pour soapy water on
+		* If a bubble appears and gets larger, there is a leak and the regulator connection must be tightened more.
+
+* Fill oil if low
+	1. xxx
+
+### Turn everything on
 
 1. Turn on carrier gas (should be Helium)
 	* The PSI should be ~100
