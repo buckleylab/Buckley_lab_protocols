@@ -38,20 +38,16 @@ This can be done using the GCMS software.
 ## Procedure:
 
 ### Prior to start up:
-1. Change carrier gas tank if low
-	1. Make sure He tank is closed
-	2. Use large wrench and turn the regulator connection counter-clockwise to loosen
-	3. Hold the column in one hand while you use the other to move the new tank in place
-		* The column is delicate and should not be bumped or placed down
-	4. Tighten the regulator connection clock-wise until you can no longer tighten it
-	5. Check for leaks using soapy water
-		* Open the tank to allow gas flow and slowly pour soapy water on
-		* If a bubble appears and gets larger, there is a leak and the regulator connection must be tightened more.
+1. Change carrier gas tank if low (easier to do when GCMS is off)
+	* See protocol to change carrier gas tank below but skip turning off the flow control step
 
-1. Fill oil if low
+1. Change oil if low
 	1. xxx
 
-### Turn everything on
+1. Change the glass insert if it has exceeded 1000
+	* See protocol to change the glass insert below, but skip turning off the flow control step
+
+### Turn equipment on
 
 1. Turn on carrier gas (should be Helium)
 	* The PSI should be ~100
@@ -64,7 +60,7 @@ This can be done using the GCMS software.
 ### The next steps are done in GCMS Real Time Analysis software
 
 1. From top screen, select __Instrument > Vacuum Control > Advanced__ 
-1. Use the manual startup
+1. Do manual startup
 	* Manual startup provides more control, 
 	option for safety checks, 
 	and may produce less wear and tear.
@@ -78,14 +74,14 @@ This can be done using the GCMS software.
 	    1. AFTER pressure is <3.1 pascals (or <5.8) and stabilizes: turn on the turbo molecular pump
 			* __Note:__ A sound resembling a jet engine is normal, 
 			as long as it only lasts < a minute
-			* If the sound continues, reverse the steps to shut down the GC and troubleshoot
 			* Wait for vacuum to return and stabilize before moving on
 	    1. Turn on ion source heater
 			* GC and MS indicators in top right of screen should soon say 'ready'
-	    1. Wait at least 24 hours before running samples on GCMS.
+	    1. Wait at least 24 hours before running samples on GCMS
 			* This allows for any contaminating air in system to be purged
 1. Run GCMS tuning proceedure
-1. Load a method or create a new method
+2. Run leak check procedure
+3. Load a method or create a new method
 	* Make sure that GC and MS are heating up to the method's specified temps
 	* A batch file can then be created if needed
 
@@ -128,7 +124,7 @@ Follow procedure starting on Page 21 of the GCMS-QP2010 Operation Guide.
 
 * The septum can be changed while the GC is on.
 The carrier gas flow will just need to be turned
-off very briefly prior to changing the septum.
+off very briefly prior to changing the septum. See protocol below.
 
 ## Procedure:
 
@@ -142,19 +138,19 @@ off very briefly prior to changing the septum.
 	* Must have a new file for each subsequent runs, even if you are running a time series
 1. Copy and paste methods file specified in you batch file into your new run folder
 	* If methods file is not in the same folder as the batch file, your samples will not be run
-1. For each run replace septa on injection port
+1. For each run (or after 100 punctures) replace septa on injection port
 	* This must be done quickly as carrier gas flow must be stopped
 	* It may be easier to remove grill from top of GCMS in case you drop one of the small parts
 	* Use work gloves while replacing septa as the injection port is VERY HOT!!!
 	* Septa replacement
-		1. Open vacuum control and click "advanced"
+		1. Open Instrument > Vacuum Control > advanced
 		1. Turn off flow controller to stop flow of carrier gas
-		1. With work gloves unscrew red sealing cover
-		1. Remove T-shaped adapter
+		1. With work gloves unscrew metal sealing cover
+		1. Remove T-shaped adapter (easiest to do with tweezers so you don't drop it)
 		1. With tweezers remove old septa and place in "Used Septa" jar
 		1. With tweezers place new septa in hole being careful not to deform or puncture septa
-		1. Place T-shaped adaptor on top of septa
-		1. Screw red sealing cover back on
+		1. Carefully place T-shaped adaptor on top of septa
+		1. Screw metal sealing cover back on
 			* Be sure not to tighten too hard as this may deform septa and result in leaks or easy coring
 		1. Restart flow controller
 1. Reset septa consumables by double clicking septa icon on right hand toolbar, clicking "Reset Consumables" and clearing value for septa
@@ -162,6 +158,36 @@ off very briefly prior to changing the septum.
 1. If you need to stop the run for any reason, click pause or stop
 1. During run, check carrier gas levels (on He tank) to make sure it does not run out due to any leaks
 1. Once run is complete, save data to your run folder
+
+***
+
+# Changing the carrier gas tank while GCMS is on
+
+If the carrier gas tank approaches 500 PSI during an experiment, it should be switched out for a new tank.
+
+Note: Work quickly and with a partner if possible so that the flow controller is off for as little time as possible.
+
+1. Instrument > Vacuum Control > Advanced > Turn off Flow Controller
+2. Close carrier tank valve
+3. Loosen the regulator using a wrench and turning counter-clockwise
+4. Hold the regulator and column carefully while you switch out tanks, trying not to jostle or bump the column
+5. Tighten the regulator back on to the new tank by turning clockwise with a wrench as tightly as you can
+6. Open the carrier gas tank and use soapy water to check for any leaks
+	* Slowly squirt onto the connection between the regulator and tank, if bubbles appear and then expand, there is a leak and the connection must be tightened
+7. Turn the Flow Controller back on
+
+***
+
+# Changing the glass insert while the GCMS is on
+
+The injection port glass liner should be switched out every 1000 runs.
+
+1. See pg. XXX of the GCMS-QP2010 Operation Guide
+2. using tweezers and gloves, place 10 mg of glass wool into a new glass liner according to instructions in guide
+3. In software, Instrument > Vacuum Control > Advanced > turn off Flow Controller
+4. Remove hood of GCMS
+5. xxxxx
+6. xxxxx
 
 ***
 
