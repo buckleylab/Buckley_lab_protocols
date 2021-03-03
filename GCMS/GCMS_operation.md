@@ -38,7 +38,7 @@ This can be done using the GCMS software.
 ## Procedure:
 
 ### Prior to start up:
-* Change carrier gas tank if low
+1. Change carrier gas tank if low
 	1. Make sure He tank is closed
 	2. Use large wrench and turn the regulator connection counter-clockwise to loosen
 	3. Hold the column in one hand while you use the other to move the new tank in place
@@ -48,7 +48,7 @@ This can be done using the GCMS software.
 		* Open the tank to allow gas flow and slowly pour soapy water on
 		* If a bubble appears and gets larger, there is a leak and the regulator connection must be tightened more.
 
-* Fill oil if low
+1. Fill oil if low
 	1. xxx
 
 ### Turn everything on
@@ -63,8 +63,8 @@ This can be done using the GCMS software.
 
 ### The next steps are done in GCMS Real Time Analysis software
 
-1. From top screen, select __Vacuum control__ 
-1. Use the manual startup ("Advanced" on Vacuum control window)
+1. From top screen, select __Instrument > Vacuum Control > Advanced__ 
+1. Use the manual startup
 	* Manual startup provides more control, 
 	option for safety checks, 
 	and may produce less wear and tear.
@@ -100,7 +100,7 @@ wait ~1 day prior to tuning.
 
 ## Procedure:
 
-* Follow procedure starting on Page 21 of the GCMS-QP2010 Operation Guide.
+Follow procedure starting on Page 21 of the GCMS-QP2010 Operation Guide.
 
 1. Open GCMS Real Time Analysis software 
 1. On left hand side bar, click Tuning icon
