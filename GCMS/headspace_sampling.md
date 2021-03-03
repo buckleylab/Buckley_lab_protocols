@@ -6,7 +6,7 @@
 Nick Youngblut (2015)
 
 ## Editing
-Cassi Wattenburger (2020, )
+Cassi Wattenburger (2020)
 
 
 ## Printing this protocol
