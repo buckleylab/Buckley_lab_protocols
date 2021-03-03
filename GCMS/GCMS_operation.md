@@ -78,6 +78,7 @@ This can be done using the GCMS software.
 	    1. AFTER pressure is <3.1 pascals (or <5.8) and stabilizes: turn on the turbo molecular pump
 			* __Note:__ A sound resembling a jet engine is normal, 
 			as long as it only lasts < a minute
+			* If the sound continues, reverse the steps to shut down the GC and troubleshoot
 			* Wait for vacuum to return and stabilize before moving on
 	    1. Turn on ion source heater
 			* GC and MS indicators in top right of screen should soon say 'ready'
@@ -171,7 +172,7 @@ off very briefly prior to changing the septum.
 ## Procedure:
 
 ### The first steps are done in GCMS Real Time Analysis software
-* Use manual shutdown.
+* Use manual shutdown, Instrument > Vacuum Control > Advanced
 	* Auto shutdown does not give enough time between the turbo molecular pump shutdown
 	and the vacuum pump shutdown. 
 	* Manual shutdown procedure:
@@ -197,7 +198,7 @@ off very briefly prior to changing the septum.
 
 * The blue septa may provide a better seal than the green septa (for higher temps).
 * The rotory vacuum oil should be changed every 6 months.
-* Replate the injection port glass liner (contains glass wool) after ~1000 injections.
+* Replace the injection port glass liner (contains glass wool) after ~1000 injections.
 	* This helps prevent the liner from fusing to the injection port.
 	
 *** 
@@ -206,7 +207,7 @@ off very briefly prior to changing the septum.
 
 ## Autosampler
 
-* Service is need every ~2 years.
+* Service is needed every ~2 years.
 * Do not lubricate anything besides the guide rails in the horizontal portion. 
 	* Lubricating other components will likely break them.
 * You can find videos on how to perform maintenance by googling 'leap autosampler'.
