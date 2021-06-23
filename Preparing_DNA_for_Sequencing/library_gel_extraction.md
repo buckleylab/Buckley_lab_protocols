@@ -5,7 +5,7 @@ Gel extraction protocol
 
 Chantal Koechli, and Nick Youngblut (2011-2014)
 
-Updated: Cassi Wattenburger 4/20/18 (increased amount of SybrSafe and gel dye to add, voltage)
+Updated: Cassi Wattenburger (2018, 2021)
 
 
 ## Printing this protocol
@@ -21,7 +21,7 @@ some modifications
 ## Gel
 
 * 1.5% low melt agarose gel with SybrSafe
-* ~75V for 1-1.5 hrs (needs updating on time frame)
+* ~30-75V for 1-3 hrs (higher voltaeg = shorter time but blurrier bands)
 
 
 ## Gel clean-up kit modifications
@@ -41,8 +41,9 @@ Sequal plate purification to 100 uL (96 compiled samples per tube).
 SybrSafe. 
 	* Make 75 mL of agarose solution
 		* Large volume needed to cast a gel with deep wells. 
+	* 75 mL 0.5x TAE
 	* 1.12 g of low melt agarose
-	* 7.5 ul of SybrSafe
+	* 7.5 ul of SybrSafe 10,000x
 
 1. Add 20 uL of loading dye (6x concentration) to each concentrated 100 uL sample and mix well. 
 	* Mix thoroughly
@@ -50,19 +51,19 @@ SybrSafe.
 1. Load 50-55 uL of the sample into an individual well until all the sample is loaded. 
 	* Use 7.5 ul of 100 bp ladder in the 1st lane (+1.5 ul of 6X loading dye).
 
-1. Run the gel at ~75 volts for ~1.5 hours.
+1. Run the gel at 30-70 volts for 1-3 hours
 	* Lower voltage gives crisper bands, but takes much longer.
 
-1. Pre-weight 2 mL microcentrifuge tubes (1 per sample).
+1. Pre-weight 2 mL microcentrifuge tubes (1 per well).
 
 1. Visualize the gel using the UV transilluminator in Room 712
-	* (make sure to wear face shield!).
+	* Make sure to wear face shield!
 	* Cut out 400-600 bp bands from each lane. 
 	
-1. Put the cut bands into pre-weighted 2 mL microcentrifuge tubes and weight to find
+1. Put the cut bands into pre-weighted 2 mL microcentrifuge tubes and weigh to find
 final weight of gel.
 
-1. Use the Wizard SV Gel and PCR Clean-Up System kit protocol to elute DNA
+1. Use the Wizard SV Gel and PCR Clean-Up System kit (Cat # A9281) protocol to elute DNA
 from gel slices. 
 	* Protocol modifications include:
 		* running binding solution (w. molten gel) through the column twice
