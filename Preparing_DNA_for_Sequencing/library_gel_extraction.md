@@ -39,11 +39,12 @@ Sequal plate purification to 100 uL (96 compiled samples per tube).
 
 1. While speed-vac is running, prepare a 1.5% low melt (or normal) agarose gel, with
 SybrSafe. 
-	* Make 75 mL of agarose solution
-		* Large volume needed to cast a gel with deep wells. 
-	* 75 mL 0.5x TAE
-	* 1.12 g of low melt agarose
-	* 7.5 ul of SybrSafe 10,000x
+	* Make 75 mL of agarose solution 
+		* 75 mL 0.5x TAE
+		* 1.12 g of low melt agarose
+		* 7.5 ul of SybrSafe 10000x
+	* Large volume needed to cast a gel with deep wells.
+	* low melt agarose takes forever to solidify. Wait at least 1 hr before using or the gel will break apart.
 
 1. Add 20 uL of loading dye (6x concentration) to each concentrated 100 uL sample and mix well. 
 	* Mix thoroughly
