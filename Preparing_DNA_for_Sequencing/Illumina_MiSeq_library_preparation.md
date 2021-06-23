@@ -36,7 +36,7 @@ This is the pipeline for preparing a library for sequencing with the Illumina Mi
 
 5. Vacuum evaporate samples to concentrate down to volume needed for a gel excision
 	* 50 uL per well
-	* [speed-vac](../lab_equipment/speed-vac.md)
+	* [speed-vac](../lab_equipment/speed_vac.md)
 	 
 6. [Gel extraction](../gel_electrophoresis/gel_extraction.md) of bands with the expected fragment size 
 	* This is recommended to increase sequence quality
