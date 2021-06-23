@@ -8,16 +8,18 @@ Ashley Campbell, Chuck Pepe-Ranney, Chantal Koechli, and Nick Youngblut (2014)
 ## Updated by:
 Sam Barnett (2018)
 
+Cassi Wattenburger (2021)
+
 # Description
 This is the pipeline for preparing a library for sequencing with the Illumina MiSeq after running PCR.
-Click [here](../PCR/PCR_with_barcoded_primers.md) to see the protocol for running PCR with barcoded primers.
 
 # Method
 
 1. Amplify your DNA using the [PCR protocol](../PCR/PCR_with_barcoded_primers.md).
 
-2. Combine triplicate PCRs for each samples, transferring samples to a new 96-well plate. 
+2. Combine replicate PCRs for each sample, transferring samples to a new 96-well plate. 
 	* This can be done with the robot method: "plate_pooling"
+	* [plate_pooling spreadsheet template]()
 
 3. Perform SequalPrep PCR purification and normalization
 	* SequalPrep Normalization Plates, Life Technologies, A10510-01
@@ -33,16 +35,17 @@ Click [here](../PCR/PCR_with_barcoded_primers.md) to see the protocol for runnin
 		* This will help you determine the volume after Vacuum evaporation.
 
 5. Vacuum evaporate samples to concentrate down to volume needed for a gel excision.
+	* 50 uL per well
 	* [speed-vac](../lab_equipment/speed-vac.md)
 	 
 6. [Gel extraction](../gel_electrophoresis/gel_extraction.md) of bands with the expected fragment size 
 	* This is recommended to increase sequence quality.
 
-7. Quantify the library sample using PicoGreen. 
+7. Quantify the library sample using PicoGreen or Qubit. 
 	* Sample requirements for a MiSeq run:
 		* >=20 uL with a concentration of 5 ng/uL. 
 	* Vacuum evaporate if needed
-		* [speed-vac](../lab_equipment/speed-vac.md)
+		* [speed-vac](../lab_equipment/speed_vac.md)
 
 8. Submission to Cornell Sequencing Facility:
 	* Place 20 uL of sample with a concentration of 5 ng/uL into sequencing tube. 
@@ -51,16 +54,14 @@ Click [here](../PCR/PCR_with_barcoded_primers.md) to see the protocol for runnin
 		* reverse sequencing primer
 		* reverse index read primer
 
+## Usual comments provided with the sequencing order
 
-## Usual comments provided with the sequencing order:
-
-### Comments for 515f-806r 16S sequencing:
+### 515f-806r 16S sequencing:
 
 We have generated our dual-indexed custom barcoded library
 as described in Kozich et al., (2013). Along with the submitted library,
 we have provided 10 ul of 100 uM custom sequencing primers: 
 Primer 1, Index Primer, Primer 2.
-
 
 We request the following MiSeq run specifications: a __cluster density of 650-750k/mm^2__
 (under-shooting the cluster density is better than over-shooting),
@@ -85,4 +86,4 @@ Development of a Dual-Index Sequencing Strategy and Curation Pipeline
 for Analyzing Amplicon Sequence Data on the MiSeq Illumina Sequencing
 Platform. Appl Environ Microbiol 79:5112-5120.]
 
-### Comments for ITS sequencing:
+### ITS1 sequencing:
