@@ -27,7 +27,7 @@ See **Printing protocols** in the [README](../README.md#printing-protocols-conve
   * If the contents of the container are unknown, fill out [this form](https://sp.ehs.cornell.edu/lab-research-safety/waste/chemical-waste/Documents/HW_Unknown_Chemical_Waste_Form.pdf) instead
 * Solid waste should be put in sealable bag with harazardous waste slip attached to the outside (there are large, ULINE resealable bags bought for this purpose next to the fume hood in the GC room)
 * Request an [EH&S pickup](https://sp.ehs.cornell.edu/lab-research-safety/waste/waste-pickups/Pages/default.aspx) for the waste
-* See [hazardous waste disposal protocol for more detail](hazardous_waste_disosal.md)
+* See [hazardous waste disposal protocol for more detail](hazardous_waste_disposal.md)
 
 ## Other trash tips
 
