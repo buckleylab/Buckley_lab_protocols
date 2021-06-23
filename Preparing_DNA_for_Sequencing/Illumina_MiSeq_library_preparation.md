@@ -43,7 +43,7 @@ This is the pipeline for preparing a library for sequencing with the Illumina Mi
 
 7. Quantify the library sample using PicoGreen or Qubit
 	* Sample requirements for a MiSeq run:
-		* >=20 uL with a concentration of 5 ng/uL
+		* at least 20 uL with a concentration of 5 ng/uL
 	* Vacuum evaporate if needed
 		* [speed-vac](../lab_equipment/speed_vac.md)
 
