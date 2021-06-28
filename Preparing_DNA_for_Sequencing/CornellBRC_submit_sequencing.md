@@ -32,17 +32,17 @@ NOTE: This guide assumes you are submitting a 16S V4 or ITS1 amplicon library us
     * Multiplexed: No
     * Were any of these samples made using a PCR free library prep type? No
     * Are these libraries low complexity? Yes
-      * 16S V4 and ITS1 are low complexity (ITS1 less so), a genome library would be considered high complexity because you are not sequencing a single conserved region
+      * NOTE: 16S V4 and ITS1 are low complexity (ITS1 less so), a genome library would be considered high complexity because you are not sequencing a single conserved region
     * Organism (optional): Prokaryotic
-4. On the next page, enter the following information into the General Comments:
+4. On the next page, enter the following information or similar into the General Comments:
 
    > We have generated our dual-indexed custom barcoded library as described in Kozich et al., (2013). Along with the submitted library, we have provided 10 ul of 100 uM custom sequencing primers: Read1, Read2, and Index1. We request the following MiSeq run specifications: a PhiX spike-in of 5% and a cluster density of 650-750k/mm^2 (under-shooting the cluster density is better than over-shooting). These MiSeq run specifications are described in Kozich et al., (2013); see 'Run Monitoring' in the Supplemental Materials. Please let us know if you have any questions. Thank you! [Citation: Kozich JJ, Westcott SL, Baxter NT, Highlander SK, Schloss PD. (2013). Development of a Dual-Index Sequencing Strategy and Curation Pipeline for Analyzing Amplicon Sequence Data on the MiSeq Illumina Sequencing Platform. Appl Environ Microbiol 79:5112-5120.]
 
-   * 5-10% phiX is usually adequate, 5% is generally OK for ITS1, 10% is better for 16S V4.
+   * NOTE: 5-10% phiX is usually adequate, 5% is generally OK for ITS1, 10% is better for 16S V4.
 
-5. Below the comments, name your library samples, choose the number of lanes to be used for each library (ussually 1), enter 20 uL as the volume, enter the DNA concentration (at least 5 ng/ul), and enter 8 random ATGCs for Index1 and Index2 (form requires it but it isn't necessary for our libraries).
+5. Below the comments, name your library samples, choose the number of lanes to be used for each library (ussually 1), enter 20 uL as the volume, enter the DNA concentration of each library, and enter 8 random ATGC's for Index1 and Index2 (form requires it but it isn't necessary for our libraries).
 6. Proceed to verification and submit.
-7. Prepare 20 uL of each sample, 10 uL of Sequencing primers Read1, Read2, and Index1 at 100uM. Make sure each tube is labelled well including the concentrations. Put these in a bag labelled with the order number.
-8. Take the samples over to 130 Biotechnology Building on ice
+7. Prepare 20 uL of each sample and 10 uL of Sequencing primers Read1, Read2, and Index1 at 100uM. Make sure each tube is labelled well, including the concentrations. Put these in a bag labelled with the order number.
+8. Take the samples over to 130 Biotechnology Building on ice. To reach the Genomics Center, enter the hallway to the left when you enter the atrium, go down the hallway, take a right when that hallway ends, and the room you want is near the end of that hallway, with a window on the door (put down the room # at some point).
 
 Sequencing takes 1-2 weeks. See our (pipeline for processing raw sequence data)[] once you recieve data back.
