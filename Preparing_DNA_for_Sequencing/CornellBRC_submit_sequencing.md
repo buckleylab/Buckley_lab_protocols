@@ -9,11 +9,11 @@ Cassandra Wattenburger (June 2021)
 
 # Description
 
-We do our sequencing at Cornell Biotechnology Resource Center. These instructions list details of how to fill out the submission form and submit a [prepared library](Illumina_MiSeq_library_preparation.md) for sequencing.
+We do our sequencing at Cornell Biotechnology Resource Center. These instructions list details of how to fill out the submission form and submit a prepared library for sequencing. See our [libary preparation protocol](Illumina_MiSeq_library_preparation.md).
 
 ### Illumina MiSeq sequencing submission
 
-NOTE: This guide assumes you are submitting a 16S V4 or ITS1 amplicon library using the Kozich barcodes.
+NOTE: This guide assumes you are submitting a 16S V4 or ITS1 amplicon library using our [Kozich barcodes](../).
 
 1. Place order [here](https://www.biotech.cornell.edu/core-facilities-brc/services/miseq-illumina-sequencing) using the "Submit Samples" link.
 1. Scroll to Genomics and select Illumina Sequencing
