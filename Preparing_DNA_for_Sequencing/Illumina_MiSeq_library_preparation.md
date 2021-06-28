@@ -47,43 +47,5 @@ This is the pipeline for preparing a library for sequencing with the Illumina Mi
 	* Vacuum evaporate if needed
 		* [speed-vac](../lab_equipment/speed_vac.md)
 
-8. Submission to Cornell Sequencing Facility:
-	* Place 20 uL of sample with a concentration of 5 ng/uL into sequencing tube
-	* Additionally, submit 10 uL of 100 uM _sequencing primers_:
-		* forward sequencing primer
-		* reverse sequencing primer
-		* reverse index read primer
+8. Submit to [Cornell Sequencing Facility]()
 
-## Usual comments provided with the sequencing order
-
-### 515f-806r 16S sequencing:
-
-We have generated our dual-indexed custom barcoded library
-as described in Kozich et al., (2013). Along with the submitted library,
-we have provided 10 ul of 100 uM custom sequencing primers: 
-Primer 1, Index Primer, Primer 2.
-
-We request the following MiSeq run specifications: a __cluster density of 650-750k/mm^2__
-(under-shooting the cluster density is better than over-shooting),
-a __PhiX spike-in of 5%__. These MiSeq run specifications are described 
-in Kozich et al., (2013); see 'Run Monitoring' in the Supplemental Materials.
-
-In addition, we have been in contact with Peter Schweitzer on using dPCR to for library
-quantification in hopes of obtaining more accurate cluster densities. 
-The dPCR assay entails using the ABI QuantStudio3D instrument with SYBR Green and 
-primers that target the Illumina adaptor sequences. 
-The data that Peter has shared with us looks promising, but taking the quantifications
-at face value would likely cause __over-clustering__, and thus the raw values likely
-need to be corrected in order to achieve the target cluster density. 
-Please let us know if dPCR cannot be used to quantify our libraries or if
-you have any other questions about the assay.
-
-Also, please let us know if you have any questions about the primers or requested
-run parameters. Thank you!
-
-[Citation: Kozich JJ, Westcott SL, Baxter NT, Highlander SK, Schloss PD. (2013).
-Development of a Dual-Index Sequencing Strategy and Curation Pipeline
-for Analyzing Amplicon Sequence Data on the MiSeq Illumina Sequencing
-Platform. Appl Environ Microbiol 79:5112-5120.]
-
-### ITS1 sequencing:
