@@ -26,17 +26,19 @@ NOTE: This guide assumes you are submitting a 16S V4 or ITS1 amplicon library us
     * Illumina Sequencing Adaptor Type: Custom
     * Which Custom Sequencing Primer are you submitting? Read1, Read2, and Index1
     * Custom sequencing primer mixing: Mix with Illumina's primers
-      * NOTE: If you plan to spike phiX into your run (which you should definitely do), phiX will not amplify if the Illumina primers aren't also included!
+      * NOTE: If you plan to spike phiX into the run (which you should definitely do for low complexity libraries), phiX will not amplify if the Illumina primers aren't also included!
     * Barcode Type: Dual barcode
     * Custom DNA Barcode Index Length: 8
     * Multiplexed: No
     * Were any of these samples made using a PCR free library prep type? No
     * Are these libraries low complexity? Yes
-      * 16S V4 and ITS1 are a low complexity amplicons (ITS1 less so), a genome library would be considered high complexity because you are not sequencing a conserved region
+      * 16S V4 and ITS1 are low complexity (ITS1 less so), a genome library would be considered high complexity because you are not sequencing a single conserved region
     * Organism (optional): Prokaryotic
 4. On the next page, enter the following information into the General Comments:
 
+   > We have generated our dual-indexed custom barcoded library as described in Kozich et al., (2013). Along with the submitted library, we have provided 10 ul of 100 uM custom sequencing primers: Read1, Read2, and Index1. We request the following MiSeq run specifications: a PhiX spike-in of 5% and a cluster density of 650-750k/mm^2 (under-shooting the cluster density is better than over-shooting). These MiSeq run specifications are described in Kozich et al., (2013); see 'Run Monitoring' in the Supplemental Materials. Please let us know if you have any questions. Thank you! [Citation: Kozich JJ, Westcott SL, Baxter NT, Highlander SK, Schloss PD. (2013). Development of a Dual-Index Sequencing Strategy and Curation Pipeline for Analyzing Amplicon Sequence Data on the MiSeq Illumina Sequencing Platform. Appl Environ Microbiol 79:5112-5120.]
 
+   * 5-10% phiX is usually adequate, 5% is generally OK for ITS1, 10% is better for 16S V4.
 
 5. Below the comments, name your library samples, choose the number of lanes to be used for each library (ussually 1), enter 20 uL as the volume, enter the DNA concentration (at least 5 ng/ul), and enter 8 random ATGCs for Index1 and Index2 (form requires it but it isn't necessary for our libraries).
 6. Proceed to verification and submit.
