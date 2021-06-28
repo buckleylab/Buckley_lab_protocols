@@ -9,7 +9,7 @@ Cassandra Wattenburger (June 2021)
 
 # Description
 
-We do our sequencing at Cornell Biotechnology Resource Center. These instructions list details of how to fill out the submission form and submit a prepared library for sequencing.
+We do our sequencing at Cornell Biotechnology Resource Center. These instructions list details of how to fill out the submission form and submit a [prepared library](Illumina_MiSeq_library_preparation.md) for sequencing.
 
 ### Illumina MiSeq sequencing submission
 
@@ -45,4 +45,4 @@ NOTE: This guide assumes you are submitting a 16S V4 or ITS1 amplicon library us
 7. Prepare 20 uL of each sample and 10 uL of Sequencing primers Read1, Read2, and Index1 at 100uM. Make sure each tube is labelled well, including the concentrations. Put these in a bag labelled with the order number.
 8. Take the samples over to 130 Biotechnology Building on ice. To reach the Genomics Center, enter the hallway to the left when you enter the atrium, go down the hallway, take a right when that hallway ends, and the room you want is near the end of that hallway, with a window on the door (put down the room # at some point).
 
-Sequencing takes 1-2 weeks. See our (pipeline for processing raw sequence data)[] once you recieve data back.
+Sequencing takes 1-2 weeks. See our [pipeline for processing raw sequence data](../) once you recieve data back.
