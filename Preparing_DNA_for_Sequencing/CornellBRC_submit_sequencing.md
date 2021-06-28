@@ -13,9 +13,9 @@ We do our sequencing at Cornell Biotechnology Resource Center. These instruction
 
 ### Illumina MiSeq sequencing submission
 
-NOTE: This guide assumes you are submitting a 16S V4 or ITS1 amplicon library using our [Kozich barcodes](../).
+This guide assumes you are submitting a 16S V4 or ITS1 amplicon library using our [Kozich barcodes](../PCR/16S_primer_barcodes_for_demultiplexing.xlsx).
 
-1. Place order [here](https://www.biotech.cornell.edu/core-facilities-brc/services/miseq-illumina-sequencing) using the "Submit Samples" link.
+1. Place order [here](https://www.biotech.cornell.edu/core-facilities-brc/services/miseq-illumina-sequencing) using the "Submit Samples" link
 1. Scroll to Genomics and select Illumina Sequencing
 2. Either select a stored payment method or enter a new one
 3. On the next page, choose
