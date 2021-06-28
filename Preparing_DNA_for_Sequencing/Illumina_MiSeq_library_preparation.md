@@ -47,5 +47,5 @@ This is the pipeline for preparing a library for sequencing with the Illumina Mi
 	* Vacuum evaporate if needed
 		* [speed-vac](../lab_equipment/speed_vac.md)
 
-8. Submit to [Cornell Sequencing Facility]()
+8. Submit to [Cornell Sequencing Facility](https://www.biotech.cornell.edu/facilities-brc). See [these instructions for details](CornellBRC_submit_sequencing.md)
 
