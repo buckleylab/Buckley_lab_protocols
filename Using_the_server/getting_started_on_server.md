@@ -1,4 +1,4 @@
-Server setup for new users
+Server setup for new users (on Windows)
 ========================================
 
 ### Authorship:
@@ -8,7 +8,7 @@ Cassi Wattenburger (July 2018)
 Cassi (Sept 2019)
 
 ### Description:
-This guide is to help new users get started on the server. It assumes little knowledge of command line or how servers work.
+This guide is to help new users get started on the server on a Windows computer. It assumes little knowledge of command line or how servers work.
 
 ## Connect to the server
 1. Have someone already on the server make you an account.
@@ -107,6 +107,7 @@ Port forwarding creates a user-interface of a Jupyter Notebooks screen on your w
 3. Interact with your screen using port-forwarding
    - Copy/paste the token given when the screen is started into your web browser.
    - I suggest copy/pasting the token into some kind of document so you can easily navigate back.
+   - See tokens for active juputer notebook screens with `jupyter notebook list`
   
 ## Port forwarding R Studio
 1. Configure PuTTY
