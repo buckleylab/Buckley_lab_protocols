@@ -8,7 +8,7 @@ Cassi Wattenburger (July 2018)
 Cassi (Sept 2019)
 
 ### Description:
-This guide is to help new users get started on the server on a Windows computer. It assumes little knowledge of command line or how servers work.
+This guide is to help new users get started on the server on a Windows computer. It assumes little knowledge of command line, linux, etc.
 
 ## Connect to the server
 1. Have someone already on the server make you an account.
@@ -106,7 +106,6 @@ Port forwarding creates a user-interface of a Jupyter Notebooks screen on your w
    - If this doesn't work, something went wrong with the Jupyter Notebook setup and you'll need to doublecheck and edit the .bashrc
 3. Interact with your screen using port-forwarding
    - Copy/paste the token given when the screen is started into your web browser.
-   - I suggest copy/pasting the token into some kind of document so you can easily navigate back.
    - See tokens for active juputer notebook screens with `jupyter notebook list`
   
 ## Port forwarding R Studio
