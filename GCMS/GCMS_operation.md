@@ -84,7 +84,8 @@ This can be done using the GCMS software.
 
  OR 
  
- 1. Click Auto-startup.
+ 1. Auto-startup
+	 2. Click Auto-startup and wait for the progress bar to read "Complete".
 
 ***
 
