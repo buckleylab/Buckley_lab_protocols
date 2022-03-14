@@ -1,11 +1,11 @@
-Protocol for quantifying CO2 in headspace samples with the Shimadzu GCMS-QP2010
+Protocol for operating Shimadzu GCMS-QP2010
 ===============================================================================
 
 ## Authorship
 
 Ashley Campbell, Chantal Koechli, Nick Youngblut and Sam Barnett (2016)
 
-Updated 2021 by Cassi Wattenburger (more details)
+Updated 2021, 2022 by Cassi Wattenburger (more details)
 
 
 ## Printing this protocol
@@ -29,23 +29,21 @@ See **Printing protocols** in the [README](../README.md#printing-protocols-conve
 ## WARNINGS:
 
 * You should not need to start the floor vacuum pump (rotory pump) manually.
-This can be done using the GCMS software.
-
-* If the GCMS has not been used in a while:
-	* Check the oil level in the rotory vacuum pump (on the floor).
-	* Check the amount of carrier gas still in the tank.  
+This can be done using the GCMS software.  
 
 ## Procedure:
 
 ### Prior to start up:
-1. Change carrier gas tank if low (easier to do when GCMS is off)
+1. Change carrier gas tank if low (< 500 PSI, easier to do when GCMS is off)
 	* See protocol to change carrier gas tank below but skip turning off the flow control step
 
 1. Change oil if low
-	1. xxx
-
-1. Change the glass insert if it has exceeded 1000
+	* Need instructions for this
+	
+3. Change the glass insert if it has exceeded 1000 uses
 	* See protocol to change the glass insert below, but skip turning off the flow control step
+
+4. Change the septum if it has exceeded 100 uses
 
 ### Turn equipment on
 
@@ -56,14 +54,13 @@ This can be done using the GCMS software.
 1. Turn on  the GC (switch in front)
 1. Turn on the MS (switch in back)
 1. Start the __GCMS Real Time Analysis software__
+	* If hardware connection error, on GC press FUNC button > GC Configuration > Configuration Parameters > Protocol = Level 3 & Baud Rate = 57600 > Apply
 
 ### The next steps are done in GCMS Real Time Analysis software
 
 1. From top screen, select __Instrument > Vacuum Control > Advanced__ 
-1. Do manual startup
-	* Manual startup provides more control, 
-	option for safety checks, 
-	and may produce less wear and tear.
+1. Manual startup
+	* Manual startup provides more control, option for safety checks, and may produce less wear and tear.
 	* Manual startup procedure:
 		1. Turn on flow controller
 		1. Turn on GC system
@@ -79,11 +76,15 @@ This can be done using the GCMS software.
 			* GC and MS indicators in top right of screen should soon say 'ready'
 	    1. Wait at least 24 hours before running samples on GCMS
 			* This allows for any contaminating air in system to be purged
+1. Run leak check procedure
 1. Run GCMS tuning proceedure
-2. Run leak check procedure
-3. Load a method or create a new method
+1. Load a method or create a new method
 	* Make sure that GC and MS are heating up to the method's specified temps
 	* A batch file can then be created if needed
+
+ OR 
+ 
+ 1. Click Auto-startup.
 
 ***
 
