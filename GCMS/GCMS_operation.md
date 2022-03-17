@@ -5,7 +5,7 @@ Protocol for operating Shimadzu GCMS-QP2010
 
 Ashley Campbell, Chantal Koechli, Nick Youngblut and Sam Barnett (2016)
 
-Updated 2021, 2022 by Cassi Wattenburger (more details)
+Updated 2021, 2022 by Cassi Wattenburger (more detail, maintenance notes)
 
 
 ## Printing this protocol
@@ -34,21 +34,24 @@ This can be done using the GCMS software.
 ## Procedure:
 
 ### Prior to start up:
-1. Change carrier gas tank if low (< 500 PSI, easier to do when GCMS is off)
+1. Change carrier gas tank if low (~500 PSI, easier to do when GCMS is off)
 	* See protocol to change carrier gas tank below but skip turning off the flow control step
 
-1. Change oil if low
-	* Need instructions for this
+1. Change oil if low or old
+	* With the GCMS off, open the front-most "oil" cap and poor fresh oil in to about 3/4 full
+	* If the oil is not clear in color, drain by disconnecting the rotary pump from the vacuum line, elevating, and draining the oil from the opening at the bottom-front
 	
 3. Change the glass insert if it has exceeded 1000 uses
-	* See protocol to change the glass insert below, but skip turning off the flow control step
+	* Best done when GCMS is off
+	* See protocol to change the glass insert below
 
 4. Change the septum if it has exceeded 100 uses
+	* See protocol for changing the septum below
 
 ### Turn equipment on
 
 1. Turn on carrier gas (should be Helium)
-	* The PSI should be ~100
+	* The PSI on the left gauge should be ~100
 1. Turn on Shimadzu AOC-5000 Auto Injector (switch on power unit in back)
 1. Turn on computer
 1. Turn on  the GC (switch in front)
@@ -76,8 +79,8 @@ This can be done using the GCMS software.
 			* GC and MS indicators in top right of screen should soon say 'ready'
 	    1. Wait at least 24 hours before running samples on GCMS
 			* This allows for any contaminating air in system to be purged
-1. Run leak check procedure
-1. Run GCMS tuning proceedure
+1. Run leak check procedure (pg. 19 operation guide)
+1. Run GCMS tuning proceedure (see below)
 1. Load a method or create a new method
 	* Make sure that GC and MS are heating up to the method's specified temps
 	* A batch file can then be created if needed
@@ -93,13 +96,13 @@ This can be done using the GCMS software.
 
 ## WARNINGS:
 
-* If the GCMS has not been used in a long time (e.g., a year),
-wait ~1 day prior to tuning.
+* If the GCMS has not been used in a long time (e.g., a year), wait ~1 day prior to tuning.
 	* This wait provides time for the column to be purged of contaminants.
 
 ## Procedure:
 
-Follow procedure starting on Page 21 of the GCMS-QP2010 Operation Guide.
+Follow procedure starting on Page 21 of the GCMS-QP2010 Operation Guide. Perform a leak check 
+
 
 1. Open GCMS Real Time Analysis software 
 1. On left hand side bar, click Tuning icon
@@ -113,20 +116,10 @@ Follow procedure starting on Page 21 of the GCMS-QP2010 Operation Guide.
 	* Save tuning file in GCMSsoltuons/system/Tune1
 	* Save tuning file as yymmdd_UID (ex: 160920_seb369)
 1. Compare tuning results to expected
- 
-### Leak check:
-
-* Follow procedure outlined on Page 19 of the GCMS-QP2010 Operation Guide.
 
 ***
 
 # GCMS sample processing
-
-## Notes:
-
-* The septum can be changed while the GC is on.
-The carrier gas flow will just need to be turned
-off very briefly prior to changing the septum. See protocol below.
 
 ## Procedure:
 
@@ -140,10 +133,18 @@ off very briefly prior to changing the septum. See protocol below.
 	* Must have a new file for each subsequent runs, even if you are running a time series
 1. Copy and paste methods file specified in you batch file into your new run folder
 	* If methods file is not in the same folder as the batch file, your samples will not be run
+1. Once you double check your batch file click start to start the run
+1. If you need to stop the run for any reason, click pause or stop
+1. During run, check carrier gas levels (on He tank) to make sure it does not run out due to any leaks
+1. Once run is complete, save data to your run folder
+
+***
+
+### Changing the septum on the injection port while GCMS is on
 1. For each run (or after 100 punctures) replace septa on injection port
 	* This must be done quickly as carrier gas flow must be stopped
 	* It may be easier to remove grill from top of GCMS in case you drop one of the small parts
-	* Use work gloves while replacing septa as the injection port is VERY HOT!!!
+	* Use work gloves while replacing septa as the injection port is VERY HOT and skin oils will interfere with the GCMS!!!
 	* Septa replacement
 		1. Open Instrument > Vacuum Control > advanced
 		1. Turn off flow controller to stop flow of carrier gas
@@ -155,12 +156,7 @@ off very briefly prior to changing the septum. See protocol below.
 		1. Screw metal sealing cover back on
 			* Be sure not to tighten too hard as this may deform septa and result in leaks or easy coring
 		1. Restart flow controller
-1. Reset septa consumables by double clicking septa icon on right hand toolbar, clicking "Reset Consumables" and clearing value for septa
-1. Once you double check your batch file click start to start the run
-1. If you need to stop the run for any reason, click pause or stop
-1. During run, check carrier gas levels (on He tank) to make sure it does not run out due to any leaks
-1. Once run is complete, save data to your run folder
-
+		1. Reset septa consumables by double clicking septa icon on right hand toolbar, clicking "Reset Consumables" and clearing value for septa
 ***
 
 # Changing the carrier gas tank while GCMS is on
@@ -180,7 +176,7 @@ Note: Work quickly and with a partner if possible so that the flow controller is
 
 ***
 
-# Changing the glass insert while the GCMS is on
+# Changing the glass insert while the GCMS is on (WIP)
 
 The injection port glass liner should be switched out every 1000 runs.
 
@@ -189,7 +185,7 @@ The injection port glass liner should be switched out every 1000 runs.
 3. In software, Instrument > Vacuum Control > Advanced > turn off Flow Controller
 4. Remove hood of GCMS
 5. xxxxx
-6. xxxxx
+6. Profit
 
 ***
 
@@ -228,10 +224,16 @@ The injection port glass liner should be switched out every 1000 runs.
 * The rotory vacuum oil should be changed every 6 months.
 * Replace the injection port glass liner (contains glass wool) after ~1000 injections.
 	* This helps prevent the liner from fusing to the injection port.
-	
-*** 
 
-# Maintenance
+## GCMS maintenance log
+
+* 3/16/22 Shimadzu service maintenance performed by Michael H. Obelsky (mhobelsky@shimadzu.com)
+	* Cleaned parts
+	* Replaced Helium filter and copper tubing
+	* Replaced bungee cord on auto-injector with used one (may need to be replaced soon)
+	* Installed mist filter on rotary pump
+	* Replaced oil in rotary pump
+	* Overall said GCMS doing well for its age
 
 ## Autosampler
 
@@ -240,9 +242,8 @@ The injection port glass liner should be switched out every 1000 runs.
 	* Lubricating other components will likely break them.
 * You can find videos on how to perform maintenance by googling 'leap autosampler'.
 
-***
 
-# Notes on Carboxen 1010 PLOT column
+## Carboxen 1010 PLOT column
 
 * Bake at 200<sup>o</sup>C for 1-2 hours if column disconnected for < 1 day.
 * If it is diconnected for >1 day, bake overnight at 200<sup>o</sup>C.
