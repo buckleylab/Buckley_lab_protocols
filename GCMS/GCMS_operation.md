@@ -14,13 +14,13 @@ See **Printing protocols** in the [README](../README.md#printing-protocols-conve
 
 ***
 
-# Equipment 
+# Equipment/materials
 
-* GCMS 
-	* Shimadzu GCMS-QP2010
-
-* Autosampler
-	* Shimadzu AOC-5000 Auto Injector
+* GCMS: Shimadzu GCMS-QP2010
+* Autosampler: Shimadzu AOC-5000 Auto Injector
+* Septa: Thermolite Shimadzu Plug (Restek, Cat# 27154)
+* Split liner: 3.5mm x 5.0 x 95 (Restek, Cat# 22284)
+* Deactivated fused silica
 
 ***
 
@@ -176,12 +176,12 @@ Note: Work quickly and with a partner if possible so that the flow controller is
 
 ***
 
-# Changing the glass insert while the GCMS is on (WIP)
+# Changing the glass insert split liner while the GCMS is on (WIP)
 
 The injection port glass liner should be switched out every 1000 runs.
 
 1. See pg. XXX of the GCMS-QP2010 Operation Guide
-2. using tweezers and gloves, place 10 mg of glass wool into a new glass liner according to instructions in guide
+2. using tweezers and gloves, place 10 mg of deactivated fused silica (glass wool) into a new glass liner according to instructions in guide
 3. In software, Instrument > Vacuum Control > Advanced > turn off Flow Controller
 4. Remove hood of GCMS
 5. xxxxx
