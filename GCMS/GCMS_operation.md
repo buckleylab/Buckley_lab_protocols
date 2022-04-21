@@ -55,14 +55,16 @@ This can be done using the GCMS software.
 1. Turn on Shimadzu AOC-5000 Auto Injector (switch on power unit in back)
 1. Turn on computer
 1. Turn on  the GC (switch in front)
-2. Configure the GC (front panel)
+2. Configure the GC (front panel, this may not be necessary)
 	* On the Boot Loader screen select 0 Run GC (Normal mode)
 	* Press the FUNC botton > select 6 GC Configuration > select 3 Transmission Parameter > choose Protocol Level 3 and Baud Rate (bps) 57600 > Apply
-	* xxx configure flow controller xxx (need to figure this out)
+	* Press the FUNC botton > select 7 Service/Maintenance > select 2 Installation (Piping) > under CAR1, set Heater Port to INJ1
+	* Press the SET button > select LineConfig > set Injector to Line1
 4. Turn on the MS (switch in back)
 5. Start the __GCMS Real Time Analysis software__ on the computer
 	* Leave the password entry blank
 	* The GC will beep if the software successfully connects, if not, you have configuration issues
+	* (May already be set) On the top bar select Instrument > System Configuration > move Injection Units > SPL1 to Modules used for Analysis > Set
 
 ### The next steps are done in GCMS Real Time Analysis software
 
