@@ -60,7 +60,8 @@ This can be done using the GCMS software.
 	* Press the FUNC botton > select 6 GC Configuration > select 3 Transmission Parameter > choose Protocol Level 3 and Baud Rate (bps) 57600 > Apply
 	* xxx configure flow controller xxx (need to figure this out)
 4. Turn on the MS (switch in back)
-5. Start the __GCMS Real Time Analysis software__
+5. Start the __GCMS Real Time Analysis software__ on the computer
+	* Leave the password entry blank
 	* The GC will beep if the software successfully connects, if not, you have configuration issues
 
 ### The next steps are done in GCMS Real Time Analysis software
