@@ -78,6 +78,7 @@ This can be done using the GCMS software.
 	    1. Turn on rotory pump
 			* Let the pressure drop to <3.1 pascals (in reality it only reaches about 5.8 pascals)
 			* This takes over 30 minutes 
+			* If the vacuum doesn't lower enough, you may need to run a dummy sample using a previous method file to reconfigure the flow controller on the GC, then the vacuum should work
 	    1. AFTER pressure is <3.1 pascals (or <5.8) and stabilizes: turn on the turbo molecular pump
 			* __Note:__ A sound resembling a jet engine is normal, 
 			as long as it only lasts < a minute
