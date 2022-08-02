@@ -5,23 +5,23 @@ Server setup for new users (on Windows)
 Cassi Wattenburger (July 2018)
 
 #### Updated by: 
-Cassi (Sept 2019)
+Cassi (Sept 2019, 2022)
 
 ### Description:
 This guide is to help new users get started on the server on a Windows computer. It assumes little knowledge of command line, linux, etc.
 
-## Connect to the server
+## Connect to the server using PuTTy
 1. Have someone already on the server make you an account.
 2. Download and install PuTTY (https://www.chiark.greenend.org.uk/~sgtatham/putty/)
-   - PuTTY is how you login and interact wtih the server.
-3. Connect to the server by entering in the following info:
-   - Host name: doe-sys76.ag.cornell.edu
+   - PuTTY is how you login and interact wtih the server
+3. Connect to one (or both) of the servers by entering the following:
+   - Host name: doe-sys76.ag.cornell.edu OR prime.buckley.ag.cornell.edu
    - Connection type: SSH
    - Click 'Save' so that you don't have to retype every time
    - Click 'Open' to log in
-  
+
 Tips: 
-* Auto-username: To save yourself a little time when you login, load your saved session, go to Connection > Data, then type your username into the auto-login username box, then save the session again.
+* Auto-username: load your saved session, go to Connection > Data, then type your username into the auto-login username box, then save the session again.
 * Double click a saved session and it will automatically start.
 
 ## Install Anaconda
