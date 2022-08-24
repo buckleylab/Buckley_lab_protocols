@@ -11,7 +11,7 @@ Cassi (Sept 2019, 2022)
 This guide is to help new users get started on the server on a Windows computer. It assumes little knowledge of command line, linux, etc.
 
 ## Connect to the server using PuTTy
-1. Have someone already on the server make you an account.
+1. Have a sudo user [make you an account](https://github.com/buckleylab/Buckley_lab_protocols/blob/master/Using_the_server/adding_new_user.md).  
 2. Download and install PuTTY (https://www.chiark.greenend.org.uk/~sgtatham/putty/)
    - PuTTY is how you login and interact wtih the server
 3. Connect to one (or both) of the servers by entering the following:
