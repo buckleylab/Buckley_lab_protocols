@@ -20,4 +20,4 @@ Add a new user to a server *properly*.
 
 ### New user:
 1. Change password: `passwd` and follow prompts
-2. Follow steps in xxx to set up server for use.
+2. Follow steps in [Getting started on the server](https://github.com/buckleylab/Buckley_lab_protocols/blob/master/Using_the_server/getting_started_on_server.md)
