@@ -110,7 +110,8 @@ Port forwarding creates a user-interface of a Jupyter Notebooks screen on your w
   
 ## Port forwarding R Studio
 1. Configure PuTTY
-   - In PuTTY navigate to "SSH" > "Tunnels" in the left-hand list of directories.
+   - In "Session", load the server session of interest by clicking on it and pressing "Load"
+   - Navigate to "SSH" > "Tunnels" in the left-hand list of directories.
    - Source port: 8787
    - Destination: localhost:8787
    - Click "Add"
