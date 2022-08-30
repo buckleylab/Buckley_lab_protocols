@@ -5,7 +5,7 @@ Protocol for operating Shimadzu GCMS-QP2010
 
 Ashley Campbell, Chantal Koechli, Nick Youngblut and Sam Barnett (2016)
 
-Updated 2021, 2022 by Cassi Wattenburger (more detail, maintenance notes)
+Updated 2021, 2022 by Cassi Wattenburger (more detail, maintenance and configuration notes)
 
 
 ## Printing this protocol
@@ -53,15 +53,16 @@ This can be done using the GCMS software.
 1. Turn on carrier gas (should be Helium)
 	* The PSI on the left gauge should be ~100
 1. Turn on Shimadzu AOC-5000 Auto Injector (switch on power unit in back)
-1. Turn on computer
-1. Turn on  the GC (switch in front)
-2. Configure the GC (front panel, this may not be necessary)
+2. Turn on the MS (switch in back)
+3. Turn on  the GC (switch in front)
+4. Configure GC using the front panel
+	* Note:The GC's battery died and it no longer stores this information. This can be fixed by replacing the battery.
 	* On the Boot Loader screen select 0 Run GC (Normal mode)
 	* Press the FUNC botton > select 6 GC Configuration > select 3 Transmission Parameter > choose Protocol Level 3 and Baud Rate (bps) 57600 > Apply
 	* Press the FUNC botton > select 7 Service/Maintenance > select 2 Installation (Piping) > under CAR1, set Heater Port to INJ1
-	* Press the SET button > select LineConfig > set Injector to Line1
-4. Turn on the MS (switch in back)
-5. Start the __GCMS Real Time Analysis software__ on the computer
+	* Press the SET button > select LineConfig > set Injector and Detector to Line1
+6. Turn on computer
+9. Start the __GCMS Real Time Analysis software__ on the computer
 	* Leave the password entry blank
 	* The GC will beep if the software successfully connects, if not, you have configuration issues
 	* (May already be set) On the top bar select Instrument > System Configuration > move Injection Units > SPL1 to Modules used for Analysis > Set
@@ -72,7 +73,7 @@ This can be done using the GCMS software.
 1. Manual startup
 	* Manual startup provides more control, option for safety checks, and may produce less wear and tear.
 	* Manual startup procedure:
-		1. Turn on flow controller
+		1. Turn on flow controller (If no option, press the FLOW button on the GC front panel and try again)
 		1. Turn on GC system
     	1. Close vent valve (may already be closed)
 	    1. Turn on rotory pump
@@ -148,55 +149,6 @@ Follow procedure starting on Page 21 of the GCMS-QP2010 Operation Guide. Perform
 
 ***
 
-### Changing the septum on the injection port while GCMS is on
-1. For each run (or after 100 punctures) replace septa on injection port
-	* This must be done quickly as carrier gas flow must be stopped
-	* It may be easier to remove grill from top of GCMS in case you drop one of the small parts
-	* Use work gloves while replacing septa as the injection port is VERY HOT and skin oils will interfere with the GCMS!!!
-	* Septa replacement
-		1. Open Instrument > Vacuum Control > advanced
-		1. Turn off flow controller to stop flow of carrier gas
-		1. With work gloves unscrew metal sealing cover
-		1. Remove T-shaped adapter (easiest to do with tweezers so you don't drop it)
-		1. With tweezers remove old septa and place in "Used Septa" jar
-		1. With tweezers place new septa in hole being careful not to deform or puncture septa
-		1. Carefully place T-shaped adaptor on top of septa
-		1. Screw metal sealing cover back on
-			* Be sure not to tighten too hard as this may deform septa and result in leaks or easy coring
-		1. Restart flow controller
-		1. Reset septa consumables by double clicking septa icon on right hand toolbar, clicking "Reset Consumables" and clearing value for septa
-***
-
-# Changing the carrier gas tank while GCMS is on
-
-If the carrier gas tank approaches 500 PSI during an experiment, it should be switched out for a new tank.
-
-Note: Work quickly and with a partner if possible so that the flow controller is off for as little time as possible.
-
-1. Instrument > Vacuum Control > Advanced > Turn off Flow Controller
-2. Close carrier tank valve
-3. Loosen the regulator using a wrench and turning counter-clockwise
-4. Hold the regulator and column carefully while you switch out tanks, trying not to jostle or bump the column
-5. Tighten the regulator back on to the new tank by turning clockwise with a wrench as tightly as you can
-6. Open the carrier gas tank and use soapy water to check for any leaks
-	* Slowly squirt onto the connection between the regulator and tank, if bubbles appear and then expand, there is a leak and the connection must be tightened
-7. Turn the Flow Controller back on
-
-***
-
-# Changing the glass insert split liner while the GCMS is on (WIP)
-
-The injection port glass liner should be switched out every 1000 runs.
-
-1. See pg. XXX of the GCMS-QP2010 Operation Guide
-2. using tweezers and gloves, place 10 mg of deactivated fused silica (glass wool) into a new glass liner according to instructions in guide
-3. In software, Instrument > Vacuum Control > Advanced > turn off Flow Controller
-4. Remove hood of GCMS
-5. xxxxx
-6. Profit
-
-***
-
 # GCMS shut down
 
 * GCMS shut down is almost the reverse of the startup.
@@ -226,12 +178,83 @@ The injection port glass liner should be switched out every 1000 runs.
 
 ***
 
+# Changing components while GCMS is on
+
+## Changing the septum on the injection port while GCMS is on
+1. For each run (or after 100 punctures) replace septa on injection port
+	* This must be done quickly as carrier gas flow must be stopped
+	* It may be easier to remove grill from top of GCMS in case you drop one of the small parts
+	* Use work gloves while replacing septa as the injection port is VERY HOT and skin oils will interfere with the GCMS!!!
+	* Septa replacement
+		1. Open Instrument > Vacuum Control > advanced
+		1. Turn off flow controller to stop flow of carrier gas
+		1. With work gloves unscrew metal sealing cover
+		1. Remove T-shaped adapter (easiest to do with tweezers so you don't drop it)
+		1. With tweezers remove old septa and place in "Used Septa" jar
+		1. With tweezers place new septa in hole being careful not to deform or puncture septa
+		1. Carefully place T-shaped adaptor on top of septa
+		1. Screw metal sealing cover back on
+			* Be sure not to tighten too hard as this may deform septa and result in leaks or easy coring
+		1. Restart flow controller
+		1. Reset septa consumables by double clicking septa icon on right hand toolbar, clicking "Reset Consumables" and clearing value for septa
+***
+
+## Changing the carrier gas tank while GCMS is on
+
+If the carrier gas tank approaches 500 PSI during an experiment, it should be switched out for a new tank.
+
+Note: Work quickly and with a partner if possible so that the flow controller is off for as little time as possible.
+
+1. Instrument > Vacuum Control > Advanced > Turn off Flow Controller
+2. Close carrier tank valve
+3. Loosen the regulator using a wrench and turning counter-clockwise
+4. Hold the regulator and column carefully while you switch out tanks, trying not to jostle or bump the column
+5. Tighten the regulator back on to the new tank by turning clockwise with a wrench as tightly as you can
+6. Open the carrier gas tank and use soapy water to check for any leaks
+	* Slowly squirt onto the connection between the regulator and tank, if bubbles appear and then expand, there is a leak and the connection must be tightened
+7. Turn the Flow Controller back on
+
+***
+
+## Changing the glass insert split liner while the GCMS is on (WIP)
+
+The injection port glass liner should be switched out every 1000 runs.
+
+1. See pg. XXX of the GCMS-QP2010 Operation Guide
+2. using tweezers and gloves, place 10 mg of deactivated fused silica (glass wool) into a new glass liner according to instructions in guide
+3. In software, Instrument > Vacuum Control > Advanced > turn off Flow Controller
+4. Remove hood of GCMS
+5. xxxxx
+
+***
+
+# AOC-500 Autosampler
+
+* Service is needed every ~2 years.
+* Do not lubricate anything besides the guide rails in the horizontal portion. 
+	* Lubricating other components will likely break them.
+* You can find videos on how to perform maintenance by googling 'leap autosampler'.
+
+## Autosampler troubleshooting
+Not detecting vials in tray:
+1. On AOC-500 panel, Menu (F1) > Utilities > Tray > Tray2
+2. Change the x, y, and z positions as needed, if the needle is bending, reduce the penetration depth
+
+Not detecting gas injector port:
+1. On AOC-500 panel, Menu (F1) > Setup > Objects > Injectors > Injector 1
+2. Change the z dimension, likely needs to be set lower
+
 # General notes
 
 * The blue septa may provide a better seal than the green septa (for higher temps).
 * The rotory vacuum oil should be changed every 6 months.
 * Replace the injection port glass liner (contains glass wool) after ~1000 injections.
 	* This helps prevent the liner from fusing to the injection port.
+
+## Carboxen 1010 PLOT column
+
+* Bake at 200<sup>o</sup>C for 1-2 hours if column disconnected for < 1 day.
+* If it is diconnected for >1 day, bake overnight at 200<sup>o</sup>C.
 
 ## GCMS maintenance log
 
@@ -242,16 +265,3 @@ The injection port glass liner should be switched out every 1000 runs.
 	* Installed mist filter on rotary pump
 	* Replaced oil in rotary pump
 	* Overall said GCMS doing well for its age
-
-## Autosampler
-
-* Service is needed every ~2 years.
-* Do not lubricate anything besides the guide rails in the horizontal portion. 
-	* Lubricating other components will likely break them.
-* You can find videos on how to perform maintenance by googling 'leap autosampler'.
-
-
-## Carboxen 1010 PLOT column
-
-* Bake at 200<sup>o</sup>C for 1-2 hours if column disconnected for < 1 day.
-* If it is diconnected for >1 day, bake overnight at 200<sup>o</sup>C.
