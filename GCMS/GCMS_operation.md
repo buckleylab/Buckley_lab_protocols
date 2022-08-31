@@ -26,14 +26,14 @@ See **Printing protocols** in the [README](../README.md#printing-protocols-conve
 
 # GCMS start up
 
-## WARNINGS:
+### WARNINGS:
 
 * You should not need to start the floor vacuum pump (rotory pump) manually.
 This can be done using the GCMS software.  
 
-## Procedure:
+### Procedure:
 
-### Prior to start up:
+#### Prior to start up:
 1. Change carrier gas tank if low (~500 PSI, easier to do when GCMS is off)
 	* See protocol to change carrier gas tank below but skip turning off the flow control step
 
@@ -48,7 +48,7 @@ This can be done using the GCMS software.
 4. Change the septum if it has exceeded 100 uses
 	* See protocol for changing the septum below
 
-### Turn equipment on
+#### Turn equipment on
 
 1. Turn on carrier gas (should be Helium)
 	* The PSI on the left gauge should be ~100
@@ -58,9 +58,10 @@ This can be done using the GCMS software.
 4. Configure GC using the front panel
 	* Note:The GC's battery died and it no longer stores this information. This can be fixed by replacing the battery.
 	* On the Boot Loader screen select 0 Run GC (Normal mode)
-	* Press the FUNC botton > select 6 GC Configuration > select 3 Transmission Parameter > choose Protocol Level 3 and Baud Rate (bps) 57600 > Apply
-	* Press the FUNC botton > select 7 Service/Maintenance > select 2 Installation (Piping) > under CAR1, set Heater Port to INJ1
-	* Press the SET button > select LineConfig > set Injector and Detector to Line1
+	* Press the FUNC botton > 6 GC Configuration > 3 Transmission Parameter > choose Protocol Level 3 and Baud Rate (bps) 57600 > Apply
+	* Press the FUNC botton > 7 Service/Maintenance > 2 Installation (Piping) > under CAR1, set Heater Port to INJ1
+	* Press the SET button > LineConfig > set Injector and Detector to Line1
+	* Press the FLOW button > Column Flow > set to 1.5 > Enter
 6. Turn on computer
 9. Start the __GCMS Real Time Analysis software__ on the computer
 	* Leave the password entry blank
@@ -79,7 +80,7 @@ This can be done using the GCMS software.
 	    1. Turn on rotory pump
 			* Let the pressure drop to <3.1 pascals (in reality it only reaches about 5.8 pascals)
 			* This takes over 30 minutes 
-			* If the vacuum doesn't lower enough, you may need to run a dummy sample using a previous method file to reconfigure the flow controller on the GC, then the vacuum should work
+			* If the vacuum doesn't lower enough, you likely need to lower the column flow rate (see GC configuration notes)
 	    1. AFTER pressure is <3.1 pascals (or <5.8) and stabilizes: turn on the turbo molecular pump
 			* __Note:__ A sound resembling a jet engine is normal, 
 			as long as it only lasts < a minute
@@ -103,12 +104,12 @@ This can be done using the GCMS software.
 
 # GCMS tuning
 
-## WARNINGS:
+### WARNINGS:
 
 * If the GCMS has not been used in a long time (e.g., a year), wait ~1 day prior to tuning.
 	* This wait provides time for the column to be purged of contaminants.
 
-## Procedure:
+### Procedure:
 
 Follow procedure starting on Page 21 of the GCMS-QP2010 Operation Guide. Perform a leak check 
 
@@ -153,9 +154,9 @@ Follow procedure starting on Page 21 of the GCMS-QP2010 Operation Guide. Perform
 
 * GCMS shut down is almost the reverse of the startup.
 
-## Procedure:
+### Procedure:
 
-### The first steps are done in GCMS Real Time Analysis software
+#### The first steps are done in GCMS Real Time Analysis software
 * Use manual shutdown, Instrument > Vacuum Control > Advanced
 	* Auto shutdown does not give enough time between the turbo molecular pump shutdown
 	and the vacuum pump shutdown. 
@@ -168,7 +169,7 @@ Follow procedure starting on Page 21 of the GCMS-QP2010 Operation Guide. Perform
     	2. Turn off GC system
     	3. Wait for the GC to cool to close to room temperature <35˚C then turn off flow controller.
 
-### Once GC system is cool you proceed with manual shutdown of equipment
+#### Once GC system is cool you proceed with manual shutdown of equipment
 1. Turn off the MS (switch in back)
 1. Turn off the GC (switch in front)
 1. Turn off Shimadzu AOC-5000 Auto Injector (switch on power unit in back)
@@ -178,13 +179,17 @@ Follow procedure starting on Page 21 of the GCMS-QP2010 Operation Guide. Perform
 
 ***
 
-# Changing components while GCMS is on
+# Changing GCMS consumables while running
 
-## Changing the septum on the injection port while GCMS is on
+Note: All of this is easier done when the GCMS is off, but that's not always possible during a large experiment.
+
+### WARNINGS:
+* Work quickly, the GCMS can be damaged if the carrier flow is left off for too long while the instrument is running.
+* Wear gloves whenever touching GCMS consumables or other parts, skin oil can damage the GCMS.
+
+### Changing the septum on the injection port
 1. For each run (or after 100 punctures) replace septa on injection port
-	* This must be done quickly as carrier gas flow must be stopped
 	* It may be easier to remove grill from top of GCMS in case you drop one of the small parts
-	* Use work gloves while replacing septa as the injection port is VERY HOT and skin oils will interfere with the GCMS!!!
 	* Septa replacement
 		1. Open Instrument > Vacuum Control > advanced
 		1. Turn off flow controller to stop flow of carrier gas
@@ -199,7 +204,7 @@ Follow procedure starting on Page 21 of the GCMS-QP2010 Operation Guide. Perform
 		1. Reset septa consumables by double clicking septa icon on right hand toolbar, clicking "Reset Consumables" and clearing value for septa
 ***
 
-## Changing the carrier gas tank while GCMS is on
+### Changing the carrier gas tank
 
 If the carrier gas tank approaches 500 PSI during an experiment, it should be switched out for a new tank.
 
@@ -216,9 +221,10 @@ Note: Work quickly and with a partner if possible so that the flow controller is
 
 ***
 
-## Changing the glass insert split liner while the GCMS is on (WIP)
+### Changing the glass insert split liner (WIP)
 
-The injection port glass liner should be switched out every 1000 runs.
+The injection port glass liner should be switched out every ~1000 injections.
+* This helps prevent the liner from fusing to the injection port.
 
 1. See pg. XXX of the GCMS-QP2010 Operation Guide
 2. using tweezers and gloves, place 10 mg of deactivated fused silica (glass wool) into a new glass liner according to instructions in guide
@@ -235,7 +241,7 @@ The injection port glass liner should be switched out every 1000 runs.
 	* Lubricating other components will likely break them.
 * You can find videos on how to perform maintenance by googling 'leap autosampler'.
 
-## Autosampler troubleshooting
+### Autosampler troubleshooting
 Not detecting vials in tray:
 1. On AOC-500 panel, Menu (F1) > Utilities > Tray > Tray2
 2. Change the x, y, and z positions as needed, if the needle is bending, reduce the penetration depth
@@ -244,24 +250,22 @@ Not detecting gas injector port:
 1. On AOC-500 panel, Menu (F1) > Setup > Objects > Injectors > Injector 1
 2. Change the z dimension, likely needs to be set lower
 
-# General notes
-
-* The blue septa may provide a better seal than the green septa (for higher temps).
-* The rotory vacuum oil should be changed every 6 months.
-* Replace the injection port glass liner (contains glass wool) after ~1000 injections.
-	* This helps prevent the liner from fusing to the injection port.
-
-## Carboxen 1010 PLOT column
+# Carboxen 1010 PLOT column
 
 * Bake at 200<sup>o</sup>C for 1-2 hours if column disconnected for < 1 day.
 * If it is diconnected for >1 day, bake overnight at 200<sup>o</sup>C.
 
-## GCMS maintenance log
+# General notes
 
-* 3/16/22 Shimadzu service maintenance performed by Michael H. Obelsky (mhobelsky@shimadzu.com)
+* The blue septa may provide a better seal than the green septa (for higher temps).
+* The rotory vacuum oil should be changed every 6 months.
+
+# GCMS maintenance log
+
+* 03/16/22 Shimadzu service maintenance performed by Michael H. Obelsky (mhobelsky@shimadzu.com)
 	* Cleaned parts
 	* Replaced Helium filter and copper tubing
-	* Replaced bungee cord on auto-injector with used one (may need to be replaced soon)
-	* Installed mist filter on rotary pump
+	* Replaced bungee cord on auto-injector with a used one (may need to be replaced soon)
+	* Ordered mist filter for rotary pump
 	* Replaced oil in rotary pump
 	* Overall said GCMS doing well for its age
