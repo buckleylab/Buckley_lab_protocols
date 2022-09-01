@@ -5,7 +5,7 @@ Protocol for operating Shimadzu GCMS-QP2010
 
 Ashley Campbell, Chantal Koechli, Nick Youngblut and Sam Barnett (2016)
 
-Updated 2021, 2022 by Cassi Wattenburger (more detail, maintenance and configuration notes)
+Updated 2021, 2022 by Cassi Wattenburger (more detail, maintenance and configuration instructions)
 
 
 ## Printing this protocol
@@ -48,7 +48,7 @@ This can be done using the GCMS software.
 4. Change the septum if it has exceeded 100 uses
 	* See protocol for changing the septum below
 
-#### Turn equipment on
+#### Turn equipment on:
 
 1. Turn on carrier gas (should be Helium)
 	* The PSI on the left gauge should be ~100
@@ -56,49 +56,54 @@ This can be done using the GCMS software.
 2. Turn on the MS (switch in back)
 3. Turn on  the GC (switch in front)
 4. Configure GC using the front panel
-	* Note:The GC's battery died and it no longer stores this information. This can be fixed by replacing the battery.
+	* __Note:__ The GC's battery died and it no longer stores this information. This can be fixed by replacing the battery. Regardless it's good to have this configuration parameters written down.
 	* On the Boot Loader screen select 0 Run GC (Normal mode)
 	* Press the FUNC botton > 6 GC Configuration > 3 Transmission Parameter > choose Protocol Level 3 and Baud Rate (bps) 57600 > Apply
+		* __Note:__ This allows the computer and GC to talk to each other
 	* Press the FUNC botton > 7 Service/Maintenance > 2 Installation (Piping) > under CAR1, set Heater Port to INJ1
-	* Press the SET button > LineConfig > set Injector and Detector to Line1
-	* Press the FLOW button > Column Flow > set to 1.5 > Enter
+	* Press the SET button > LineConfig > set Injector and Detector to Line1 
+	* Press the SET button > Column Flow > set to 1.5 > Enter
+		* __Note:__ If the column flow is too high the vaccuum will not establish
+	* Press the SET button > Purge Flow > set to 1 > Enter 
+		* __Note:__ if the purge flow is too high relatative to the column flow it causes leakage
 6. Turn on computer
 9. Start the __GCMS Real Time Analysis software__ on the computer
 	* Leave the password entry blank
 	* The GC will beep if the software successfully connects, if not, you have configuration issues
 	* (May already be set) On the top bar select Instrument > System Configuration > move Injection Units > SPL1 to Modules used for Analysis > Set
 
-### The next steps are done in GCMS Real Time Analysis software
+#### Manual Start up:
+* Manual startup provides more control, option for safety checks, and may produce less wear and tear.
+
+__The next steps are done in GCMS Real Time Analysis software__
 
 1. From top screen, select __Instrument > Vacuum Control > Advanced__ 
-1. Manual startup
-	* Manual startup provides more control, option for safety checks, and may produce less wear and tear.
-	* Manual startup procedure:
-		1. Turn on flow controller (If no option, press the FLOW button on the GC front panel and try again)
-		1. Turn on GC system
-    	1. Close vent valve (may already be closed)
-	    1. Turn on rotory pump
-			* Let the pressure drop to <3.1 pascals (in reality it only reaches about 5.8 pascals)
-			* This takes over 30 minutes 
-			* If the vacuum doesn't lower enough, you likely need to lower the column flow rate (see GC configuration notes)
-	    1. AFTER pressure is <3.1 pascals (or <5.8) and stabilizes: turn on the turbo molecular pump
-			* __Note:__ A sound resembling a jet engine is normal, 
-			as long as it only lasts < a minute
-			* Wait for vacuum to return and stabilize before moving on
-	    1. Turn on ion source heater
-			* GC and MS indicators in top right of screen should soon say 'ready'
+	1. Turn on flow controller (If no option, press the FLOW button on the GC front panel and try again)
+	2. Turn on GC system
+	3. Close vent valve (may already be closed)
+	4. Turn on rotory pump
+		* Let the pressure drop to <3.1 pascals (in reality it only reaches about 5.8 pascals)
+		* This takes over 30 minutes 
+		* If the vacuum doesn't lower enough, you likely need to lower the column flow rate (see GC configuration notes)
+	1. AFTER pressure is <3.1 pascals (or <5.8) and stabilizes: turn on the turbo molecular pump
+		* __Note:__ A sound resembling a jet engine is normal, as long as it only lasts < a minute
+		* Wait for vacuum to return and stabilize before moving on
+	1. Turn on ion source heater
+		* GC and MS indicators in top right of screen should soon say 'ready'
+		* __Note:__ Don't worry if the GC oven temp does not increase and the inicator never reaches 'ready', this will be fixed once you run a method.
 	    1. Wait at least 24 hours before running samples on GCMS
-			* This allows for any contaminating air in system to be purged
+		* This allows for any contaminating air in system to be purged
 1. Run leak check procedure (pg. 19 operation guide)
 1. Run GCMS tuning proceedure (see below)
 1. Load a method or create a new method
 	* Make sure that GC and MS are heating up to the method's specified temps
 	* A batch file can then be created if needed
 
- OR 
+ __OR__ 
  
- 1. Auto-startup
-	 2. Click Auto-startup and wait for the progress bar to read "Complete".
+#### Auto-startup:
+ 
+ 1. Click Auto-startup and wait for the progress bar to read "Complete".
 
 ***
 
@@ -112,7 +117,6 @@ This can be done using the GCMS software.
 ### Procedure:
 
 Follow procedure starting on Page 21 of the GCMS-QP2010 Operation Guide. Perform a leak check 
-
 
 1. Open GCMS Real Time Analysis software 
 1. On left hand side bar, click Tuning icon
@@ -131,7 +135,7 @@ Follow procedure starting on Page 21 of the GCMS-QP2010 Operation Guide. Perform
 
 # GCMS sample processing
 
-## Procedure:
+### Procedure:
 
 * Follow procedure for Continuous Analysis outlined on on pages 169-187 of GCMS-QP2010 System User's Guide
 
@@ -152,24 +156,24 @@ Follow procedure starting on Page 21 of the GCMS-QP2010 Operation Guide. Perform
 
 # GCMS shut down
 
-* GCMS shut down is almost the reverse of the startup.
+GCMS shut down is almost the reverse of the startup.
 
 ### Procedure:
 
-#### The first steps are done in GCMS Real Time Analysis software
-* Use manual shutdown, Instrument > Vacuum Control > Advanced
-	* Auto shutdown does not give enough time between the turbo molecular pump shutdown
-	and the vacuum pump shutdown. 
-	* Manual shutdown procedure:
-		1. Turn off ion source heater
-			* wait till heater is <80˚C before moving on
-		1. Turn off turbo molecular pump
-			* wait at least 10 minutes
-    	1. Turn off rotary pump
-    	2. Turn off GC system
-    	3. Wait for the GC to cool to close to room temperature <35˚C then turn off flow controller.
+__NOTE:__ Auto shutdown does not give enough time between the turbo molecular pump shutdown and the vacuum pump shutdown. 
 
-#### Once GC system is cool you proceed with manual shutdown of equipment
+__Manual shutdown:__
+__The first steps are done in GCMS Real Time Analysis software__
+1. In the top bar select Instrument > Vacuum Control > Advanced
+1. Turn off ion source heater
+	* wait untill the heater is <80˚C before moving on
+1. Turn off turbo molecular pump
+	* wait at least 10 minutes
+1. Turn off rotary pump
+2. Turn off GC system
+3. Wait for the GC to cool to close to room temperature <35˚C then turn off flow controller.
+
+__Once GC system is cool you can turn off the equipment:__
 1. Turn off the MS (switch in back)
 1. Turn off the GC (switch in front)
 1. Turn off Shimadzu AOC-5000 Auto Injector (switch on power unit in back)
@@ -181,34 +185,36 @@ Follow procedure starting on Page 21 of the GCMS-QP2010 Operation Guide. Perform
 
 # Changing GCMS consumables while running
 
-Note: All of this is easier done when the GCMS is off, but that's not always possible during a large experiment.
+__Note:__ All of this is easier done when the GCMS is off, but that's not always possible during a large experiment.
 
 ### WARNINGS:
 * Work quickly, the GCMS can be damaged if the carrier flow is left off for too long while the instrument is running.
 * Wear gloves whenever touching GCMS consumables or other parts, skin oil can damage the GCMS.
 
-### Changing the septum on the injection port
-1. For each run (or after 100 punctures) replace septa on injection port
+### Changing the septum on the injection port:
+
+For each run (or after 100 punctures) replace septa on injection port
 	* It may be easier to remove grill from top of GCMS in case you drop one of the small parts
 	* Septa replacement
-		1. Open Instrument > Vacuum Control > advanced
-		1. Turn off flow controller to stop flow of carrier gas
-		1. With work gloves unscrew metal sealing cover
-		1. Remove T-shaped adapter (easiest to do with tweezers so you don't drop it)
-		1. With tweezers remove old septa and place in "Used Septa" jar
-		1. With tweezers place new septa in hole being careful not to deform or puncture septa
-		1. Carefully place T-shaped adaptor on top of septa
-		1. Screw metal sealing cover back on
-			* Be sure not to tighten too hard as this may deform septa and result in leaks or easy coring
-		1. Restart flow controller
-		1. Reset septa consumables by double clicking septa icon on right hand toolbar, clicking "Reset Consumables" and clearing value for septa
+1. Open Instrument > Vacuum Control > advanced
+1. Turn off flow controller to stop flow of carrier gas
+1. With work gloves unscrew metal sealing cover
+1. Remove T-shaped adapter (easiest to do with tweezers so you don't drop it)
+1. With tweezers remove old septa and place in "Used Septa" jar
+1. With tweezers place new septa in hole being careful not to deform or puncture septa
+1. Carefully place T-shaped adaptor on top of septa
+1. Screw metal sealing cover back on
+	* Be sure not to tighten too hard as this may deform septa and result in leaks or easy coring
+1. Restart flow controller
+1. Reset septa consumables by double clicking septa icon on right hand toolbar, clicking "Reset Consumables" and clearing value for septa
+
 ***
 
-### Changing the carrier gas tank
+### Changing the carrier gas tank:
 
 If the carrier gas tank approaches 500 PSI during an experiment, it should be switched out for a new tank.
 
-Note: Work quickly and with a partner if possible so that the flow controller is off for as little time as possible.
+__Note:__ Work quickly and with a partner if possible so that the flow controller is off for as little time as possible.
 
 1. Instrument > Vacuum Control > Advanced > Turn off Flow Controller
 2. Close carrier tank valve
@@ -221,7 +227,7 @@ Note: Work quickly and with a partner if possible so that the flow controller is
 
 ***
 
-### Changing the glass insert split liner (WIP)
+### Changing the glass insert split liner (WIP):
 
 The injection port glass liner should be switched out every ~1000 injections.
 * This helps prevent the liner from fusing to the injection port.
@@ -242,13 +248,15 @@ The injection port glass liner should be switched out every ~1000 injections.
 * You can find videos on how to perform maintenance by googling 'leap autosampler'.
 
 ### Autosampler troubleshooting
-Not detecting vials in tray:
-1. On AOC-500 panel, Menu (F1) > Utilities > Tray > Tray2
-2. Change the x, y, and z positions as needed, if the needle is bending, reduce the penetration depth
 
-Not detecting gas injector port:
+__Not detecting vials in tray:__
+1. On AOC-500 panel, Menu (F1) > Utilities > Tray > Tray2
+2. Change the x, y, and z positions as needed
+3. If the needle is bending, reduce the penetration depth and replace the needle and syringe
+
+__Not detecting gas injector port:__
 1. On AOC-500 panel, Menu (F1) > Setup > Objects > Injectors > Injector 1
-2. Change the z dimension, likely needs to be set lower
+2. Change the z dimension and/or needle penetration depth
 
 # Carboxen 1010 PLOT column
 
