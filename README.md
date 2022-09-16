@@ -65,6 +65,3 @@ Guidelines and directions for using the Buckley Lab server.
 
 ### [Lab equipment](./lab_equipment)
 Manuals and protocols for using some of the Buckley Lab equipment.
- 
-### [Previous experiments](./previous_experiments)
-Notes and protocols from past experiments.
