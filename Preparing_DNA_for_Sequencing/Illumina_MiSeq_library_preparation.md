@@ -38,7 +38,7 @@ This is the pipeline for preparing a library for sequencing with the Illumina Mi
 	* 50 uL per well
 	* [speed-vac](../lab_equipment/speed_vac.md)
 	 
-6. [Gel extraction](../gel_electrophoresis/gel_extraction.md) of bands with the expected fragment size 
+6. [Gel extraction]([../gel_electrophoresis/gel_extraction.md](https://github.com/buckleylab/Buckley_lab_protocols/blob/master/gel_electrophoresis/library_gel_extraction.md)) of bands with the expected fragment size 
 	* This is recommended to increase sequence quality
 
 7. Quantify the library sample using PicoGreen or Qubit
