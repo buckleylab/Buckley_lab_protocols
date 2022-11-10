@@ -5,6 +5,7 @@ Picogreen Protocol
 
 Chantal Koechli and Nick Youngblut (2011-2014)
 
+Updated by Cassi Wattenburger (2022)
 
 ## Printing this protocol
 
@@ -12,27 +13,32 @@ See **Printing protocols** in the [README](../README.md#printing-protocols-conve
 
 # Automated Picogreen protocol (using the Hamilton robot)
 
-## Basic method
+### Basic method
 
-* Select the correct robot method
+* Select the XXX.med file in the robot software
 * The method will prompt you for all of the materials needed
   (e.g., picogreen & DNA standard)
 * Run the method in simulation mode to get an idea of what to expect.
 
-## Notes on CsCl gradient fractionation quantification
+Notes:
+* You will need to transfer some 200x picogreen and the lambda standard into green microcentrifuge tubes that are robot compatible
+* Recommend using 2 uL of DNA per reaction
+* Prepare more 1x TE than the robot method prompts or you will get liquid handling errors
+* Keep the light off in the robot (picogreen is light sensitive)
+
+### Notes on CsCl gradient fractionation quantification
 
 * Using 2 ul of each fraction per Picogreen rxn should be adequate, 
 even at the ends of the gradient.
 * Use 5 ul of each fraction if you want higher precision. 
 
-
 # Manual Picogreen protocol
 
-## Notes
+### Notes
 
 * The protocol assumes one 96-well plate.
 
-## Materials
+### Materials
 
 * \(1\) Costar black 96-well plate
 	* VWR: cat# 62402-983
@@ -43,7 +49,7 @@ even at the ends of the gradient.
 	* Warm up the picogreen reagent before use
 
 
-## Make 1x TE buffer
+### Make 1x TE buffer
 
 * __NOTE:__ Sketching out a plate layout is highly encouraged before beginning analysis. 
 	* The plate will contain:
@@ -84,7 +90,7 @@ reagent dilution
 * use a 50 mL falcon tube for making the 1x TE buffer
 
 
-## Make standards 
+### Make standards 
 
 * Stock standard conc.: 100 ug/mL
 * Working standard conc. needed: 2 ug/mL
@@ -114,7 +120,7 @@ reagent dilution
 plate. The standard curve should be duplicated.
 
 
-## Unknown & blank well reagent additions
+### Unknown & blank well reagent additions
 
 *   Add 99 uL of TE buffer to all wells on the Costar plate assigned as
 	unknowns or blanks.
@@ -127,7 +133,7 @@ plate. The standard curve should be duplicated.
 *   Add 1uL of the corresponding unknown to the assigned unknown well.
 
 
-## Making and adding Picogreen Reagent
+### Making and adding Picogreen Reagent
 
 * Based on the number of unknowns to be run, calculate the volume of 1x
 Picogreen reagent that should be made (volume in ul):
@@ -161,9 +167,9 @@ Picogreen reagent:
 	* Alternatively, just stick the plate in a drawer.
 
 
-## Running unknowns on plate reader
+# Plate reader
 
-*   While unknowns are incubating, set up analysis program on plate
+While unknowns are incubating, set up analysis program on plate
     reader software:
 
 1.  Open Softmax Pro 6.3 software.
@@ -180,19 +186,15 @@ Picogreen reagent:
     and clicking on the small plate icon ('Template editor'). This will
     open up a screen that will allow you to add standards, unknowns, and
     blanks to the plate to be read.
-    * __Note:__ The dilution factor for the unknowns should be set to 200.
-
-1.  Once the plate is modified, you can save as a protocol file. You can
-    also save the file as a datafile once the analysis is done.
+    * __Note:__ The dilution factor for the unknowns should be set to 100 if 2 uL of template was used, 200 if 1 uL of template was used.
+    * __Note:__ The robot sets up each measurement in duplicate in adjacent columns
+    * Recommend using a pre-made template (picogreen_template.prcl) so you don't have to set up the standards every time
 
 1.  To read plate, open the plate reader using the open/close button and
     place the plate into the reader. Note the orientation of the plate!
     Then press the read button.
+    * You may be prompted to switch out the XXX first if it was changed out for another assay.
 
-1.  Once read is done, save file and export data as .txt file.
+1.  Once read is done, save the file and export data as .txt file. Exclude all but the unknowns.
 
-1.  OPTIONAL: format data into 96 well plate layout. This format will correspond to the wells the samples came from on the origin plate.
-	1. Open python script "plateReaderParse.py" found on desktop.
-	1. You will be be propted to select input file. Select text file containing PicoGreen assay results.
-	1. Enter starting and ending wells that the samples were take from on the origin plate.
-	1. The python script will return a screen with the assay data in a 96 well plate layout and will create a .txt file containg the 		data. The new data file will have the same name as the input file (step ii) but end in _plate.txt.
+1. You can quickly tidy the .txt files for easy downstream analysis using the picogreen_tidy.py script.
