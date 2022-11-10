@@ -34,9 +34,9 @@ For examole the Kozich et al. 2013 indexing primer is:
 
     ATTAGAWACCCBDGTAGTCCGGCTGACTGACT
 
-# Primer sequences for 16S and ITS
+# Barcoded primer sequences for 16S V4 and ITS1 amplicons
 
-See [this spreadsheet](linky).
+See [this spreadsheet](https://github.com/buckleylab/Buckley_lab_protocols/blob/master/Preparing_DNA_for_Sequencing/Kozich_primers_081121.xlsx).
 
 
 # Citations:
